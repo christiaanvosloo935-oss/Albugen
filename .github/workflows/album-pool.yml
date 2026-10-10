@@ -26,6 +26,7 @@ jobs:
         run: node scripts/draw-pool.mjs
         env:
           STOREFRONT: za
+          POOL_SIZE: 30
       - name: Commit the new list
         run: |
           git config user.name "github-actions[bot]"
