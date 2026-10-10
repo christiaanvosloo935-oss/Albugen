@@ -4,6 +4,14 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Albugen</title>
+<meta name="theme-color" content="#e2a12a">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Albugen">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT,WONK@9..144,400..900,100,1&family=Karla:wght@400;500;700&family=DM+Mono:wght@400;500&display=swap">
@@ -43,6 +51,7 @@
 html, body { margin: 0; }
 body {
   background: var(--bg); color: var(--ink);
+  -webkit-tap-highlight-color: transparent; overscroll-behavior-y: none;
   font: 16px/1.55 var(--body);
   -webkit-font-smoothing: antialiased;
 }
@@ -50,14 +59,14 @@ img { max-width: 100%; display: block; }
 button { font: inherit; color: inherit; }
 :focus-visible { outline: 3px solid var(--orange); outline-offset: 3px; border-radius: 6px; }
 
-.stripes { display: grid; height: 22px; }
+.stripes { display: grid; grid-template-rows: calc(5.5px + env(safe-area-inset-top, 0px)) 5.5px 5.5px 5.5px; }
 .stripes i { display: block; }
 .stripes i:nth-child(1) { background: var(--mustard); }
 .stripes i:nth-child(2) { background: var(--orange); }
 .stripes i:nth-child(3) { background: var(--rust); }
 .stripes i:nth-child(4) { background: var(--brown); }
 
-.wrap { max-width: 1080px; margin: 0 auto; padding-inline: clamp(16px, 4vw, 40px); padding-block: 28px 64px; }
+.wrap { max-width: 1080px; margin: 0 auto; padding-inline: clamp(16px, 4vw, 40px); padding-block: 28px calc(64px + env(safe-area-inset-bottom, 0px)); }
 
 header.top { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 12px 24px; padding-block: 8px 28px; }
 .wordmark {
@@ -446,6 +455,10 @@ $("tracks").addEventListener("click", e => {
 });
 $("redraw").addEventListener("click", draw);
 $("sleeve").addEventListener("click", () => $("deck").classList.add("listening"));
+
+if ("serviceWorker" in navigator && window.isSecureContext) {
+  navigator.serviceWorker.register("sw.js").catch(() => {});
+}
 
 render();
 if (!state.weeks[WEEK.key] || state.weeks[WEEK.key].album.preview) draw();
