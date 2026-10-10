@@ -217,7 +217,7 @@ footer { margin-top: 64px; color: var(--muted); font-size: .82rem; font-family: 
 
   <div class="notice" id="notice" hidden>
     <strong>Preview</strong>
-    <span>Apple Music can't be reached from here, so this is a sample album. Opened in a normal browser, the app draws a live album each week.</span>
+    <span>Apple Music can't be reached from here, so this is a sample album. Opened in a normal browser, the app draws a live album each week. <span id="notice-why"></span></span>
   </div>
 
   <main class="hero">
@@ -341,16 +341,41 @@ const WEEK = isoWeek();
 const fmt = d => d.toLocaleDateString(undefined, { day: "numeric", month: "short" });
 
 /* ---------- Apple Music (iTunes Search API) ---------- */
+// The user's Apple Music storefront (e.g. "za"), so drawn albums are available to them.
+const COUNTRY = ((navigator.languages || [navigator.language]).map(l => (l || "").split("-")[1]).find(Boolean) || "us").toLowerCase();
+
+// Mobile Safari sometimes blocks a plain fetch to the iTunes API, so fall back to JSONP,
+// which the API supports and which doesn't depend on CORS.
+function jsonp(url) {
+  return new Promise((resolve, reject) => {
+    const cb = "__alburad" + Date.now() + Math.floor(Math.random() * 1e6);
+    const s = document.createElement("script");
+    const done = () => { delete window[cb]; s.remove(); clearTimeout(t); };
+    const t = setTimeout(() => { done(); reject(new Error("timed out")); }, 12000);
+    window[cb] = data => { done(); resolve(data); };
+    s.onerror = () => { done(); reject(new Error("script blocked")); };
+    s.src = url + "&callback=" + cb;
+    document.head.appendChild(s);
+  });
+}
 async function getJSON(url) {
-  const r = await fetch(url);
-  if (!r.ok) throw new Error("HTTP " + r.status);
-  return r.json();
+  try {
+    const ctl = new AbortController();
+    const t = setTimeout(() => ctl.abort(), 10000);
+    const r = await fetch(url, { signal: ctl.signal });
+    clearTimeout(t);
+    if (!r.ok) throw new Error("HTTP " + r.status);
+    return await r.json();
+  } catch (e) {
+    try { return await jsonp(url); }
+    catch (e2) { throw new Error(`fetch: ${e.message}; jsonp: ${e2.message}`); }
+  }
 }
 async function drawLive() {
     for (let attempt = 0; attempt < 6; attempt++) {
     const g = pick(GENRES);              // every genre equally likely
     const term = pick(g.seeds);
-    const res = await getJSON(`https://itunes.apple.com/search?media=music&entity=album&limit=200&term=${encodeURIComponent(term)}`);
+    const res = await getJSON(`https://itunes.apple.com/search?media=music&entity=album&limit=200&country=${COUNTRY}&term=${encodeURIComponent(term)}`);
     const recent = new Set(Object.values(state.weeks).map(w => w.album && w.album.id));
     const ok = (res.results || []).filter(r =>
       r.collectionType === "Album" && r.trackCount >= 5 &&
@@ -359,7 +384,7 @@ async function drawLive() {
     if (!ok.length) continue;
     // Search results are ranked by popularity; lean toward the back of the list for deeper cuts.
     const r = Math.random() < 0.65 ? ok[Math.floor(ok.length / 3 + Math.random() * (ok.length * 2 / 3))] : pick(ok);
-    const look = await getJSON(`https://itunes.apple.com/lookup?id=${r.collectionId}&entity=song`);
+    const look = await getJSON(`https://itunes.apple.com/lookup?id=${r.collectionId}&entity=song&country=${COUNTRY}`);
     const tracks = (look.results || []).filter(t => t.wrapperType === "track")
       .sort((a, b) => (a.discNumber - b.discNumber) || (a.trackNumber - b.trackNumber))
       .map(t => ({ name: t.trackName, ms: t.trackTimeMillis }));
@@ -380,6 +405,7 @@ async function draw() {
   try { album = await drawLive(); $("notice").hidden = true; }
   catch (e) {
     album = SAMPLE; $("notice").hidden = false;
+    $("notice-why").textContent = e.message ? `(${e.message})` : "";
   }
   state.weeks[WEEK.key] = { album, favs: [], rating: null };
   if (!album.preview) save();
