@@ -3,12 +3,12 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Albugen</title>
+<title>Alburad</title>
 <meta name="theme-color" content="#e2a12a">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="apple-mobile-web-app-title" content="Albugen">
+<meta name="apple-mobile-web-app-title" content="Alburad">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
 <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
@@ -211,7 +211,7 @@ footer { margin-top: 64px; color: var(--muted); font-size: .82rem; font-family: 
 
 <div class="wrap">
   <header class="top">
-    <h1 class="wordmark">Albu<span>gen</span></h1>
+    <h1 class="wordmark">Albu<span>rad</span></h1>
     <div class="week" id="week"></div>
   </header>
 
@@ -318,7 +318,7 @@ const EXAMPLE_PAST = [
     album: { title: "Pink Moon", artist: "Nick Drake", year: 1972, genre: "Folk" } },
 ];
 
-const KEY = "albugen.v1";
+const KEY = "alburad.v1";
 const load = () => { try { return JSON.parse(localStorage.getItem(KEY)) || {}; } catch { return {}; } };
 let state = Object.assign({ weeks: {} }, load());
 const save = () => { try { localStorage.setItem(KEY, JSON.stringify(state)); } catch {} };

@@ -1,5 +1,5 @@
-// Albugen service worker: the app shell works offline; Apple Music lookups always go to the network.
-const SHELL = "albugen-shell-v1";
+// Alburad service worker: the app shell works offline; Apple Music lookups always go to the network.
+const SHELL = "alburad-shell-v1";
 const FILES = ["./", "index.html", "manifest.webmanifest", "icons/icon-192.png", "icons/icon-512.png", "icons/apple-touch-icon.png"];
 
 self.addEventListener("install", e => {
@@ -8,7 +8,7 @@ self.addEventListener("install", e => {
 
 self.addEventListener("activate", e => {
   e.waitUntil(caches.keys()
-    .then(keys => Promise.all(keys.filter(k => k !== SHELL && k !== "albugen-runtime").map(k => caches.delete(k))))
+    .then(keys => Promise.all(keys.filter(k => k !== SHELL && k !== "alburad-runtime").map(k => caches.delete(k))))
     .then(() => self.clients.claim()));
 });
 
@@ -26,7 +26,7 @@ self.addEventListener("fetch", e => {
 
   // Fonts and album artwork: cache first, refresh in the background.
   if (/fonts\.(googleapis|gstatic)\.com$|mzstatic\.com$/.test(url.hostname)) {
-    e.respondWith(caches.open("albugen-runtime").then(async c => {
+    e.respondWith(caches.open("alburad-runtime").then(async c => {
       const hit = await c.match(e.request);
       const net = fetch(e.request).then(r => { if (r.ok || r.type === "opaque") c.put(e.request, r.clone()); return r; }).catch(() => hit);
       return hit || net;
