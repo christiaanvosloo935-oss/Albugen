@@ -179,13 +179,13 @@ header.top { display: flex; flex-wrap: wrap; align-items: flex-end; justify-cont
 .track[aria-pressed="true"] .name { font-weight: 700; }
 .track[aria-pressed="true"] .fav { color: var(--orange); transform: scale(1.15); }
 
-/* Past weeks section */
+/* Rated albums section */
 section.past { margin-top: 64px; }
 .section-head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 8px 20px; margin-bottom: 16px; }
 .section-head h2 { font-family: var(--display); font-weight: 800; font-variation-settings: "SOFT" 100, "WONK" 1; font-size: 1.9rem; margin: 0; }
 .section-head p { margin: 0; color: var(--muted); font-size: .92rem; max-width: 52ch; }
 
-/* Past weeks */
+/* Rated albums */
 .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 22px; }
 .card { display: flex; flex-direction: column; gap: 8px; min-width: 0; }
 .card .art { position: relative; aspect-ratio: 1; border-radius: 4px; overflow: hidden; background: var(--brown); box-shadow: 0 8px 18px -10px rgba(60,25,8,.5); }
@@ -261,8 +261,8 @@ footer { margin-top: 64px; color: var(--muted); font-size: .82rem; font-family: 
 
   <section class="past" id="past-section" hidden>
     <div class="section-head">
-      <h2>Past weeks</h2>
-      <p>Every album you've lived with, with its score and your picks.</p>
+      <h2>Rated albums</h2>
+      <p>Every album you've rated, newest first, with your score and favourite tracks.</p>
     </div>
     <div class="grid" id="past"></div>
   </section>
@@ -281,7 +281,7 @@ const SAMPLE = {
 
 const KEY = "alburad.v1";
 const load = () => { try { return JSON.parse(localStorage.getItem(KEY)) || {}; } catch { return {}; } };
-let state = Object.assign({ weeks: {}, seen: [] }, load());
+let state = Object.assign({ weeks: {}, seen: [], log: [] }, load());
 const save = () => { try { localStorage.setItem(KEY, JSON.stringify(state)); } catch {} };
 
 const $ = id => document.getElementById(id);
@@ -333,7 +333,7 @@ async function getJSON(url) {
   }
 }
 // Every album ever shown (kept or skipped), so a draw never repeats one.
-const seen = () => new Set([...state.seen, ...Object.values(state.weeks).map(w => w.album && w.album.id)]);
+const seen = () => new Set([...state.seen, ...state.log.map(l => l.album.id), ...Object.values(state.weeks).map(w => w.album && w.album.id)]);
 
 // Primary source: albums.json, refreshed weekly by a GitHub Action and served from this site,
 // so the phone never has to reach Apple's search API itself.
@@ -364,8 +364,16 @@ async function drawLive() {
 async function draw() {
   $("status").textContent = "Picking this week's album…";
   $("redraw").disabled = true;
+  // Moving on from the current album: keep it in the rated list if you rated it or starred
+  // tracks, otherwise just remember it was skipped so it isn't drawn again.
   const prev = state.weeks[WEEK.key];
-  if (prev && !prev.album.preview && !state.seen.includes(prev.album.id)) state.seen.push(prev.album.id);
+  let kept = "";
+  if (prev && !prev.album.preview) {
+    if (prev.rating != null || prev.favs.length) {
+      state.log.push({ week: WEEK.key, at: Date.now(), album: prev.album, favs: prev.favs, rating: prev.rating });
+      kept = `Saved ${prev.album.title}${prev.rating ? ` (${prev.rating}/10)` : ""} to your rated albums.`;
+    } else if (!state.seen.includes(prev.album.id)) state.seen.push(prev.album.id);
+  }
   let album;
   try { album = await drawFromPool(); $("notice").hidden = true; }
   catch (e1) {
@@ -377,7 +385,7 @@ async function draw() {
   }
   state.weeks[WEEK.key] = { album, favs: [], rating: null };
   if (!album.preview) save();
-  $("status").textContent = "";
+  $("status").textContent = kept;
   render();
 }
 
@@ -408,8 +416,8 @@ function render() {
   $("artist").innerHTML = `by <b>${esc(a.artist)}</b>`;
   $("meta").innerHTML = [a.year, a.genre, a.tracks.length + " tracks"]
     .filter(Boolean).map(t => `<span class="tag">${esc(t)}</span>`).join("");
-  $("redraw").disabled = wk.rating != null || wk.favs.length > 0;
-  $("redraw").title = $("redraw").disabled ? "Locked in once you've rated or picked tracks" : "";
+  $("redraw").disabled = false;
+  $("redraw").textContent = wk.rating != null || wk.favs.length ? "Save & draw another" : "Draw another";
 
   $("meter").innerHTML = Array.from({ length: 10 }, (_, i) =>
     `<button type="button" id="rate-${i + 1}" class="${wk.rating >= i + 1 ? "on" : ""}" aria-pressed="${wk.rating === i + 1}" aria-label="${i + 1} out of 10">${i + 1}</button>`).join("");
@@ -422,10 +430,14 @@ function render() {
   $("favcount").textContent = wk.favs.length ? `${wk.favs.length} picked` : "tap to pick";
 
 
-  const past = Object.entries(state.weeks).filter(([k, w]) => k !== WEEK.key && !w.album.preview && w.album.art)
-    .sort(([a], [b]) => b.localeCompare(a)).map(([k, w]) => ({ week: k.replace("-W", " · Week "), rating: w.rating, favs: w.favs.map(i => w.album.tracks[i]?.name).filter(Boolean), album: w.album }));
-  $("past-section").hidden = !past.length;
-  const items = past;
+  // Every rated album: ones saved with "Save & draw another", plus each earlier week's last album.
+  const rated = w => !w.album.preview && w.album.art && (w.rating != null || w.favs.length);
+  const items = [
+    ...state.log.filter(rated),
+    ...Object.entries(state.weeks).filter(([k, w]) => k !== WEEK.key && rated(w)).map(([k, w]) => ({ ...w, week: k, at: Infinity })),
+  ].sort((a, b) => b.week.localeCompare(a.week) || b.at - a.at)
+   .map(w => ({ ...w, week: w.week === WEEK.key ? "This week" : w.week.replace("-W", " · Week "), favs: w.favs.map(i => w.album.tracks[i]?.name).filter(Boolean) }));
+  $("past-section").hidden = !items.length;
   $("past").innerHTML = items.map(p => `
     <article class="card">
       <div class="art">${coverHTML(p.album)}${p.rating ? `<span class="badge">${p.rating}</span>` : ""}</div>
