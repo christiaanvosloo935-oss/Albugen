@@ -200,7 +200,6 @@ section.past { margin-top: 64px; }
 .card p { margin: 0; color: var(--muted); font-size: .85rem; }
 .card .wk { font-family: var(--mono); font-size: .7rem; text-transform: uppercase; letter-spacing: .1em; color: var(--muted); }
 .card .favs { font-size: .82rem; color: var(--ink); }
-.example { font-family: var(--mono); font-size: .65rem; text-transform: uppercase; letter-spacing: .12em; padding: 2px 6px; border-radius: 4px; background: var(--line); color: var(--muted); align-self: flex-start; }
 
 .status { font-family: var(--mono); font-size: .85rem; color: var(--muted); min-height: 1.4em; margin-top: 12px; }
 footer { margin-top: 64px; color: var(--muted); font-size: .82rem; font-family: var(--mono); }
@@ -259,7 +258,7 @@ footer { margin-top: 64px; color: var(--muted); font-size: .82rem; font-family: 
     </div>
   </main>
 
-  <section class="past">
+  <section class="past" id="past-section" hidden>
     <div class="section-head">
       <h2>Past weeks</h2>
       <p>Every album you've lived with, with its score and your picks.</p>
@@ -311,12 +310,6 @@ const SAMPLE = {
   url: "https://music.apple.com/us/search?term=" + encodeURIComponent("Vashti Bunyan Just Another Diamond Day"),
   tracks: ["Diamond Day","Glow Worms","Velvet to Wear","Timothy Grub","Where I Like to Stand","Swallow Song","Window Over the Bay","Rose Hip November","Come Wind Come Rain","Hebridean Sun","Rainbow River","Trawlerman's Song","Iris's Song for Us","Lily Pond"].map(n => ({ name: n }))
 };
-const EXAMPLE_PAST = [
-  { week: "Example", rating: 9, favs: ["Gloria's Step","Jade Visions"],
-    album: { title: "Sunday at the Village Vanguard", artist: "Bill Evans Trio", year: 1961, genre: "Jazz" } },
-  { week: "Example", rating: 8, favs: ["Pink Moon","Road","From the Morning"],
-    album: { title: "Pink Moon", artist: "Nick Drake", year: 1972, genre: "Folk" } },
-];
 
 const KEY = "alburad.v1";
 const load = () => { try { return JSON.parse(localStorage.getItem(KEY)) || {}; } catch { return {}; } };
@@ -454,13 +447,14 @@ function render() {
   $("favcount").textContent = wk.favs.length ? `${wk.favs.length} picked` : "tap to pick";
 
 
-  const past = Object.entries(state.weeks).filter(([k, w]) => k !== WEEK.key && !w.album.preview)
+  const past = Object.entries(state.weeks).filter(([k, w]) => k !== WEEK.key && !w.album.preview && w.album.art)
     .sort(([a], [b]) => b.localeCompare(a)).map(([k, w]) => ({ week: k.replace("-W", " · Week "), rating: w.rating, favs: w.favs.map(i => w.album.tracks[i]?.name).filter(Boolean), album: w.album }));
-  const items = past.length ? past : EXAMPLE_PAST;
+  $("past-section").hidden = !past.length;
+  const items = past;
   $("past").innerHTML = items.map(p => `
     <article class="card">
       <div class="art">${coverHTML(p.album)}${p.rating ? `<span class="badge">${p.rating}</span>` : ""}</div>
-      ${p.week === "Example" ? `<span class="example">Example</span>` : `<span class="wk">${esc(p.week)}</span>`}
+      <span class="wk">${esc(p.week)}</span>
       <h3>${esc(p.album.title)}</h3>
       <p>${esc(p.album.artist)} · ${esc(p.album.year)}</p>
       ${p.favs.length ? `<div class="favs">&#9733; ${p.favs.map(esc).join(", ")}</div>` : ""}
