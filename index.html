@@ -48,6 +48,7 @@
 }
 
 * { box-sizing: border-box; }
+[hidden] { display: none !important; }
 html, body { margin: 0; }
 body {
   background: var(--bg); color: var(--ink);
@@ -269,41 +270,8 @@ footer { margin-top: 64px; color: var(--muted); font-size: .82rem; font-family: 
   <footer>Albums drawn from Apple Music. Your ratings and picks stay in this browser.</footer>
 </div>
 
+<script src="catalog.js"></script>
 <script>
-const GENRES = [
-  { id: "rock", name: "Rock & Alternative", c: "var(--rust)",
-    seeds: ["indie rock","shoegaze","post-punk","slowcore","garage rock","psychedelic rock","krautrock","math rock","post-rock","noise rock","jangle pop","college rock","grunge","prog rock","southern rock","blues rock","art rock","new wave","goth rock","britpop","emo","surf rock","space rock"],
-    accept: ["Rock","Alternative","Indie Rock","Hard Rock","Prog-Rock/Art Rock","Psychedelic","Rock & Roll","American Trad Rock","Arena Rock","Blues-Rock","Jam Bands","Southern Rock","Surf","Britpop","College Rock","Goth Rock","Grunge","New Wave","Indie Pop","Punk"] },
-  { id: "poppunk", name: "Pop Punk", c: "var(--orange)", seeds: ["pop punk","skate punk","melodic punk"], accept: ["Punk","Alternative","Rock"] },
-  { id: "metal", name: "Heavy Metal", c: "var(--brown)", seeds: ["heavy metal","NWOBHM","traditional heavy metal"], accept: ["Metal","Heavy Metal","Hard Rock"] },
-  { id: "pop", name: "Pop & Adult Contemporary", c: "var(--mustard)",
-    seeds: ["chamber pop","sophisti-pop","soft rock","art pop","baroque pop","sunshine pop","yacht rock","adult contemporary"],
-    accept: ["Pop","Adult Contemporary","Soft Rock","Pop/Rock","Indie Pop"] },
-  { id: "jazz", name: "Jazz", c: "var(--avocado)",
-    seeds: ["bebop","spiritual jazz","hard bop","cool jazz","modal jazz","jazz fusion","vocal jazz","piano trio","avant-garde jazz","latin jazz","ethio jazz","free jazz"],
-    accept: ["Jazz","Bebop","Hard Bop","Cool Jazz","Fusion","Vocal Jazz","Avant-Garde Jazz","Contemporary Jazz","Big Band","Latin Jazz","Mainstream Jazz","Crossover Jazz","Trad Jazz","Smooth Jazz"] },
-  { id: "blues", name: "Blues", c: "var(--rust)",
-    seeds: ["delta blues","chicago blues","piedmont blues","electric blues","soul blues","country blues","texas blues"],
-    accept: ["Blues","Acoustic Blues","Chicago Blues","Classic Blues","Contemporary Blues","Country Blues","Delta Blues","Electric Blues"] },
-  { id: "folk", name: "Folk & Singer/Songwriter", c: "var(--avocado)",
-    seeds: ["chamber folk","british folk","psych folk","freak folk","singer songwriter","appalachian folk","folk revival"],
-    accept: ["Folk","Singer/Songwriter","Contemporary Folk","Traditional Folk","Alternative Folk","Contemporary Singer/Songwriter"] },
-  { id: "classical", name: "Classical", c: "var(--brown)",
-    seeds: ["baroque","string quartet","minimalism","piano sonatas","chamber music","choral","cello suites","harpsichord"],
-    accept: ["Classical","Baroque Era","Chamber Music","Minimalism","Modern Era","Romantic Era","Classical Era","Choral","Opera","Orchestral","Solo Instrumental","Contemporary Era","Impressionist","Medieval Era","Renaissance"] },
-  { id: "score", name: "Film Score", c: "var(--orange)", seeds: ["original score","film score","motion picture score"], accept: ["Soundtrack","Original Score"] },
-  { id: "experimental", name: "Experimental & Avant-Garde", c: "var(--rust)",
-    seeds: ["experimental","avant-garde","drone","musique concrete","tape music","sound collage"],
-    accept: ["Experimental","Avant-Garde","Electronic","Alternative","Ambient","Electronica"] },
-  { id: "easy", name: "Easy Listening", c: "var(--mustard)", seeds: ["easy listening","exotica","lounge","space age pop"], accept: ["Easy Listening","Lounge","Vocal","Pop"] },
-  { id: "lofi", name: "Lo-Fi", c: "var(--avocado)", seeds: ["lo-fi","bedroom pop","lofi beats","home recording"], accept: ["Alternative","Electronic","Hip-Hop/Rap","Indie Pop","Lo-Fi"] },
-  { id: "christian", name: "Christian", c: "var(--brown)",
-    seeds: ["christian rock","christian folk","worship","christian indie","jesus music"],
-    accept: ["Christian","Christian & Gospel","Christian Rock","CCM","Gospel","Praise & Worship","Christian Pop"] },
-];
-const BLOCK_GENRES = ["Children's Music","Holiday","Christmas","Spoken Word","Comedy","Fitness & Workout","Karaoke"];
-const BLOCK_TITLES = /christmas|holiday|children|kids|lullab|karaoke|greatest hits|best of|essential|spoken word|workout|- single|- ep\b/i;
-
 /* Shown when Apple Music isn't reachable (artifact preview, offline). */
 const SAMPLE = {
   id: "sample-vashti", preview: true, title: "Just Another Diamond Day", artist: "Vashti Bunyan", year: 1970, genre: "Folk",
@@ -313,7 +281,7 @@ const SAMPLE = {
 
 const KEY = "alburad.v1";
 const load = () => { try { return JSON.parse(localStorage.getItem(KEY)) || {}; } catch { return {}; } };
-let state = Object.assign({ weeks: {} }, load());
+let state = Object.assign({ weeks: {}, seen: [] }, load());
 const save = () => { try { localStorage.setItem(KEY, JSON.stringify(state)); } catch {} };
 
 const $ = id => document.getElementById(id);
@@ -334,8 +302,8 @@ const WEEK = isoWeek();
 const fmt = d => d.toLocaleDateString(undefined, { day: "numeric", month: "short" });
 
 /* ---------- Apple Music (iTunes Search API) ---------- */
-// The user's Apple Music storefront (e.g. "za"), so drawn albums are available to them.
-const COUNTRY = ((navigator.languages || [navigator.language]).map(l => (l || "").split("-")[1]).find(Boolean) || "us").toLowerCase();
+// Apple Music storefront (South Africa), so drawn albums are playable on the account.
+const COUNTRY = "za";
 
 // Mobile Safari sometimes blocks a plain fetch to the iTunes API, so fall back to JSONP,
 // which the API supports and which doesn't depend on CORS.
@@ -364,29 +332,31 @@ async function getJSON(url) {
     catch (e2) { throw new Error(`fetch: ${e.message}; jsonp: ${e2.message}`); }
   }
 }
+// Every album ever shown (kept or skipped), so a draw never repeats one.
+const seen = () => new Set([...state.seen, ...Object.values(state.weeks).map(w => w.album && w.album.id)]);
+
+// Primary source: albums.json, refreshed weekly by a GitHub Action and served from this site,
+// so the phone never has to reach Apple's search API itself.
+async function drawFromPool() {
+  const r = await fetch("albums.json", { cache: "no-cache" });
+  if (!r.ok) throw new Error("album list HTTP " + r.status);
+  const used = seen();
+  const a = ((await r.json()).albums || []).find(x => !used.has(x.id));
+  if (!a) throw new Error("album list used up");
+  return a;
+}
+
+// Fallback: search Apple Music directly from the browser.
 async function drawLive() {
-    for (let attempt = 0; attempt < 6; attempt++) {
+  for (let attempt = 0; attempt < 6; attempt++) {
     const g = pick(GENRES);              // every genre equally likely
     const term = pick(g.seeds);
     const res = await getJSON(`https://itunes.apple.com/search?media=music&entity=album&limit=200&country=${COUNTRY}&term=${encodeURIComponent(term)}`);
-    const recent = new Set(Object.values(state.weeks).map(w => w.album && w.album.id));
-    const ok = (res.results || []).filter(r =>
-      r.collectionType === "Album" && r.trackCount >= 5 &&
-      g.accept.includes(r.primaryGenreName) && !BLOCK_GENRES.includes(r.primaryGenreName) &&
-      !BLOCK_TITLES.test(r.collectionName) && !recent.has(r.collectionId));
+    const ok = candidates(res.results, g, seen());
     if (!ok.length) continue;
-    // Search results are ranked by popularity; lean toward the back of the list for deeper cuts.
-    const r = Math.random() < 0.65 ? ok[Math.floor(ok.length / 3 + Math.random() * (ok.length * 2 / 3))] : pick(ok);
+    const r = pickDeep(ok);
     const look = await getJSON(`https://itunes.apple.com/lookup?id=${r.collectionId}&entity=song&country=${COUNTRY}`);
-    const tracks = (look.results || []).filter(t => t.wrapperType === "track")
-      .sort((a, b) => (a.discNumber - b.discNumber) || (a.trackNumber - b.trackNumber))
-      .map(t => ({ name: t.trackName, ms: t.trackTimeMillis }));
-    return {
-      id: r.collectionId, title: r.collectionName, artist: r.artistName,
-      year: (r.releaseDate || "").slice(0, 4), genre: r.primaryGenreName,
-      art: (r.artworkUrl100 || "").replace("100x100bb", "1200x1200bb"),
-      url: r.collectionViewUrl, tracks
-    };
+    return toAlbum(r, look.results);
   }
   throw new Error("no-match");
 }
@@ -394,11 +364,16 @@ async function drawLive() {
 async function draw() {
   $("status").textContent = "Picking this week's album…";
   $("redraw").disabled = true;
+  const prev = state.weeks[WEEK.key];
+  if (prev && !prev.album.preview && !state.seen.includes(prev.album.id)) state.seen.push(prev.album.id);
   let album;
-  try { album = await drawLive(); $("notice").hidden = true; }
-  catch (e) {
-    album = SAMPLE; $("notice").hidden = false;
-    $("notice-why").textContent = e.message ? `(${e.message})` : "";
+  try { album = await drawFromPool(); $("notice").hidden = true; }
+  catch (e1) {
+    try { album = await drawLive(); $("notice").hidden = true; }
+    catch (e2) {
+      album = SAMPLE; $("notice").hidden = false;
+      $("notice-why").textContent = `(${e1.message}; ${e2.message})`;
+    }
   }
   state.weeks[WEEK.key] = { album, favs: [], rating: null };
   if (!album.preview) save();

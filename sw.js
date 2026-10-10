@@ -1,6 +1,6 @@
 // Alburad service worker: the app shell works offline; Apple Music lookups always go to the network.
-const SHELL = "alburad-shell-v2";
-const FILES = ["./", "index.html", "manifest.webmanifest", "icons/icon-192.png", "icons/icon-512.png", "icons/apple-touch-icon.png"];
+const SHELL = "alburad-shell-v3";
+const FILES = ["./", "index.html", "catalog.js", "manifest.webmanifest", "icons/icon-192.png", "icons/icon-512.png", "icons/apple-touch-icon.png"];
 
 self.addEventListener("install", e => {
   e.waitUntil(caches.open(SHELL).then(c => c.addAll(FILES)).then(() => self.skipWaiting()));
