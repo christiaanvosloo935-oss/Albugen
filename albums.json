@@ -1,0 +1,1038 @@
+{
+ "generated": "2026-10-10T15:17:47.605Z",
+ "storefront": "za",
+ "albums": [
+  {
+   "id": 1506160469,
+   "title": "Now Album",
+   "artist": "HEY-SMITH",
+   "year": "2013",
+   "genre": "Punk",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/a0/45/2a/a0452a8b-688d-11a5-ee19-b23642a90fb3/4580300419291.jpg/1200x1200bb.jpg",
+   "url": "https://music.apple.com/za/album/now-album/1506160469?uo=4",
+   "tracks": [
+    {
+     "name": "Welcome to Now Album",
+     "ms": 55813
+    },
+    {
+     "name": "Dancing Is Illegal",
+     "ms": 116173
+    },
+    {
+     "name": "True Yourself",
+     "ms": 199893
+    },
+    {
+     "name": "Like a Gentleman",
+     "ms": 96400
+    },
+    {
+     "name": "D.I.Y (Dive into You)",
+     "ms": 131587
+    },
+    {
+     "name": "Living in My Skin",
+     "ms": 144427
+    },
+    {
+     "name": "Download Me If You Can",
+     "ms": 177320
+    },
+    {
+     "name": "I Hate Nukes",
+     "ms": 112267
+    },
+    {
+     "name": "Heartbreak",
+     "ms": 94520
+    },
+    {
+     "name": "Summer Head",
+     "ms": 46267
+    },
+    {
+     "name": "Magic Leaf",
+     "ms": 157653
+    },
+    {
+     "name": "Real Tomorrow",
+     "ms": 179733
+    },
+    {
+     "name": "Lonely with Everyone",
+     "ms": 137560
+    },
+    {
+     "name": "Goodbye to Say Hello",
+     "ms": 167720
+    },
+    {
+     "name": "Start Again",
+     "ms": 173587
+    },
+    {
+     "name": "Journey",
+     "ms": 214133
+    }
+   ]
+  },
+  {
+   "id": 1411407226,
+   "title": "Nightfall",
+   "artist": "Alice Sara Ott",
+   "year": "2018",
+   "genre": "Classical",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/94/58/67/94586712-43c2-cdbb-5dee-3097cf085201/18UMGIM05507.rgb.jpg/1200x1200bb.jpg",
+   "url": "https://music.apple.com/za/album/nightfall/1411407226?uo=4",
+   "tracks": [
+    {
+     "name": "Rêverie, L. 68",
+     "ms": 283307
+    },
+    {
+     "name": "Suite bergamasque, L. 75: No. 1, Prélude",
+     "ms": 258693
+    },
+    {
+     "name": "Suite bergamasque, L. 75: No. 2, Menuet",
+     "ms": 263960
+    },
+    {
+     "name": "Suite bergamasque, L. 75: No. 3, Clair de lune",
+     "ms": 294960
+    },
+    {
+     "name": "Suite bergamasque, L. 75: No. 4, Passepied",
+     "ms": 230200
+    },
+    {
+     "name": "Gnossiennes: No. 1, Lent",
+     "ms": 257840
+    },
+    {
+     "name": "3 Gymnopédies: No. 1, Lent et douloureux",
+     "ms": 205280
+    },
+    {
+     "name": "Gnossiennes: No. 3, Lent",
+     "ms": 175880
+    },
+    {
+     "name": "Gaspard de la nuit, M. 55: No. 1, Ondine",
+     "ms": 410427
+    },
+    {
+     "name": "Gaspard de la nuit, M. 55: No. 2, Le Gibet",
+     "ms": 560373
+    },
+    {
+     "name": "Gaspard de la nuit, M. 55: No. 3, Scarbo",
+     "ms": 614440
+    },
+    {
+     "name": "Pavane pour une infante défunte, M. 19",
+     "ms": 414040
+    }
+   ]
+  },
+  {
+   "id": 1693818800,
+   "title": "Kingdom Book One",
+   "artist": "Maverick City Music & Kirk Franklin",
+   "year": "2022",
+   "genre": "Christian",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/b0/b5/43/b0b54336-d32d-d3ee-5df4-d31c0eb7a318/197188979829.jpg/1200x1200bb.jpg",
+   "url": "https://music.apple.com/za/album/kingdom-book-one/1693818800?uo=4",
+   "tracks": [
+    {
+     "name": "Kingdom (feat. Naomi Raine & Chandler Moore)",
+     "ms": 565834
+    },
+    {
+     "name": "Fear Is Not My Future (feat. Brandon Lake & Chandler Moore)",
+     "ms": 625062
+    },
+    {
+     "name": "Bless Me",
+     "ms": 272349
+    },
+    {
+     "name": "Jealous (feat. Chandler Moore & Lizzie Morgan)",
+     "ms": 890731
+    },
+    {
+     "name": "Talkin Bout (Love) [feat. Chandler Moore & Lizzie Morgan]",
+     "ms": 363102
+    },
+    {
+     "name": "The One You Love / One Thing Remains (feat. Brandon Lake, Dante Bowe & Chandler Moore)",
+     "ms": 647025
+    },
+    {
+     "name": "My Life Is In Your Hands (feat. Chandler Moore)",
+     "ms": 421165
+    },
+    {
+     "name": "Melodies From Heaven (feat. Chandler Moore & Maryanne J. George)",
+     "ms": 202118
+    },
+    {
+     "name": "I Smile (feat. Lizzie Morgan)",
+     "ms": 210117
+    },
+    {
+     "name": "Why We Sing (feat. Brandon Lake)",
+     "ms": 225445
+    },
+    {
+     "name": "Take Me Back (feat. Chandler Moore, Dante Bowe & Ryan Ofei)",
+     "ms": 1174209
+    },
+    {
+     "name": "Kingdom (feat. Naomi Raine & Chandler Moore)",
+     "ms": 575115
+    },
+    {
+     "name": "Fear Is Not My Future (feat. Brandon Lake & Chandler Moore)",
+     "ms": 1093050
+    },
+    {
+     "name": "Bless Me",
+     "ms": 291165
+    },
+    {
+     "name": "Jealous (feat. Chandler Moore & Lizzie Morgan)",
+     "ms": 919335
+    },
+    {
+     "name": "Talkin Bout (Love) [Chandler Moore & Lizzie Morgan]",
+     "ms": 395978
+    },
+    {
+     "name": "The One You Love / One Thing Remains (feat. Brandon Lake, Dante Bowe, & Chandler Moore)",
+     "ms": 665288
+    },
+    {
+     "name": "My Life Is In Your Hands (feat. Chandler Moore)",
+     "ms": 440773
+    },
+    {
+     "name": "Melodies From Heaven (feat. Chandler Moore & Maryanne J. George)",
+     "ms": 220262
+    },
+    {
+     "name": "I Smile (feat. Lizzie Morgan)",
+     "ms": 223305
+    },
+    {
+     "name": "Why We Sing (feat. Brandon Lake)",
+     "ms": 241490
+    },
+    {
+     "name": "Take Me Back (feat. Dante Bowe, Chandler Moore, & Ryan Ofei)",
+     "ms": 1192398
+    }
+   ]
+  },
+  {
+   "id": 1418718797,
+   "title": "Hallelujah Here Below",
+   "artist": "Elevation Worship",
+   "year": "2018",
+   "genre": "Christian",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/28/cd/94/28cd949e-68a9-fd3f-4342-5ba42bdb7834/886447214763.jpg/1200x1200bb.jpg",
+   "url": "https://music.apple.com/za/album/hallelujah-here-below/1418718797?uo=4",
+   "tracks": [
+    {
+     "name": "Won't Stop Now",
+     "ms": 424755
+    },
+    {
+     "name": "God of the Promise",
+     "ms": 247446
+    },
+    {
+     "name": "Hallelujah Here Below",
+     "ms": 423377
+    },
+    {
+     "name": "Here Again",
+     "ms": 405914
+    },
+    {
+     "name": "Echo (feat. Tauren Wells)",
+     "ms": 236736
+    },
+    {
+     "name": "Worthy",
+     "ms": 371616
+    },
+    {
+     "name": "Mighty God (Another Hallelujah)",
+     "ms": 291339
+    },
+    {
+     "name": "Power",
+     "ms": 307008
+    },
+    {
+     "name": "Then He Rose",
+     "ms": 323018
+    },
+    {
+     "name": "Greater Than Your Love",
+     "ms": 284620
+    },
+    {
+     "name": "Faithful",
+     "ms": 334891
+    },
+    {
+     "name": "Here Comes Heaven",
+     "ms": 268949
+    },
+    {
+     "name": "Still God",
+     "ms": 266670
+    },
+    {
+     "name": "Better Word",
+     "ms": 388647
+    }
+   ]
+  },
+  {
+   "id": 437205524,
+   "title": "Piedmont Blues",
+   "artist": "Willie McTell",
+   "year": "2011",
+   "genre": "Country Blues",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/e1/2e/98/e12e98f9-4aa8-f1f4-f9e2-c8cce8b80541/mzi.skvxcfmd.tif/1200x1200bb.jpg",
+   "url": "https://music.apple.com/za/album/piedmont-blues/437205524?uo=4",
+   "tracks": [
+    {
+     "name": "Statesboro Blues",
+     "ms": 159945
+    },
+    {
+     "name": "Mama, 'Tain't Long Fo' Da",
+     "ms": 188053
+    },
+    {
+     "name": "Drive Away Blues",
+     "ms": 204971
+    },
+    {
+     "name": "Loving Talking Blues",
+     "ms": 161852
+    },
+    {
+     "name": "Lonesome Day Blues",
+     "ms": 199491
+    },
+    {
+     "name": "Mama, Let Me Scoop for You",
+     "ms": 197039
+    },
+    {
+     "name": "Love Changing Blues",
+     "ms": 199732
+    },
+    {
+     "name": "Dark Night Blues",
+     "ms": 177319
+    },
+    {
+     "name": "Stole Rider Blues",
+     "ms": 194133
+    },
+    {
+     "name": "Mr. Mctell Got the Blues",
+     "ms": 143279
+    },
+    {
+     "name": "Three Women Blues",
+     "ms": 169613
+    },
+    {
+     "name": "Rollin' Mama Blues",
+     "ms": 186439
+    },
+    {
+     "name": "Writin' Paper Blues",
+     "ms": 197866
+    },
+    {
+     "name": "Searching the Desert for the Blue",
+     "ms": 187771
+    }
+   ]
+  },
+  {
+   "id": 1874711518,
+   "title": "A Flock of Seagulls",
+   "artist": "A Flock of Seagulls",
+   "year": "1982",
+   "genre": "Pop",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e6/1d/ca/e61dca88-9559-caf6-67a8-9d32e167886d/0859381158868.jpg/1200x1200bb.jpg",
+   "url": "https://music.apple.com/za/album/a-flock-of-seagulls/1874711518?uo=4",
+   "tracks": [
+    {
+     "name": "I Ran (So Far Away)",
+     "ms": 304280
+    },
+    {
+     "name": "Space Age Love Song",
+     "ms": 227867
+    },
+    {
+     "name": "You Can Run",
+     "ms": 266533
+    },
+    {
+     "name": "Don't Ask Me",
+     "ms": 167000
+    },
+    {
+     "name": "Messages",
+     "ms": 173333
+    },
+    {
+     "name": "Telecommunication",
+     "ms": 152667
+    },
+    {
+     "name": "Modern Love Is Automatic",
+     "ms": 229307
+    },
+    {
+     "name": "Standing in the Doorway",
+     "ms": 282107
+    },
+    {
+     "name": "D.N.A.",
+     "ms": 150960
+    },
+    {
+     "name": "Man Made",
+     "ms": 342067
+    }
+   ]
+  },
+  {
+   "id": 1635376474,
+   "title": "Steve Reich: Runner / Music for Ensemble and Orchestra",
+   "artist": "Susanna Mälkki & Los Angeles Philharmonic",
+   "year": "2022",
+   "genre": "Classical",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/7d/79/4b/7d794b5f-f119-b7b0-0d3f-f774c3ba49df/075597910155.jpg/1200x1200bb.jpg",
+   "url": "https://music.apple.com/za/album/steve-reich-runner-music-for-ensemble-and-orchestra/1635376474?uo=4",
+   "tracks": [
+    {
+     "name": "Runner: I. Sixteenths",
+     "ms": 270373
+    },
+    {
+     "name": "Runner: II. Eighths",
+     "ms": 87360
+    },
+    {
+     "name": "Runner: III. Quarters",
+     "ms": 129520
+    },
+    {
+     "name": "Runner: IV. Eighths",
+     "ms": 153120
+    },
+    {
+     "name": "Runner: V. Sixteenths",
+     "ms": 300467
+    },
+    {
+     "name": "Music for Ensemble and Orchestra: I. Sixteenths",
+     "ms": 298573
+    },
+    {
+     "name": "Music for Ensemble and Orchestra: II. Eighths",
+     "ms": 193267
+    },
+    {
+     "name": "Music for Ensemble and Orchestra: III. Quarters",
+     "ms": 143760
+    },
+    {
+     "name": "Music for Ensemble and Orchestra: IV. Eighths",
+     "ms": 226267
+    },
+    {
+     "name": "Music for Ensemble and Orchestra: V. Sixteenths",
+     "ms": 323133
+    }
+   ]
+  },
+  {
+   "id": 1570089404,
+   "title": "Tiny Cities",
+   "artist": "Sun Kil Moon",
+   "year": "2005",
+   "genre": "Rock",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/90/81/27/908127e4-acd6-8538-b8ab-0b8d1f1cd18c/859727388959_cover.jpg/1200x1200bb.jpg",
+   "url": "https://music.apple.com/za/album/tiny-cities/1570089404?uo=4",
+   "tracks": [
+    {
+     "name": "Exit Does Not Exist",
+     "ms": 84827
+    },
+    {
+     "name": "Tiny Cities Made of Ashes",
+     "ms": 193840
+    },
+    {
+     "name": "Neverending Math Equation",
+     "ms": 173227
+    },
+    {
+     "name": "Space Travel Is Boring",
+     "ms": 222840
+    },
+    {
+     "name": "Dramamine",
+     "ms": 164707
+    },
+    {
+     "name": "Jesus Christ Was an Only Child",
+     "ms": 119627
+    },
+    {
+     "name": "Four Fingered Fisherman",
+     "ms": 161027
+    },
+    {
+     "name": "Grey Ice Water",
+     "ms": 152973
+    },
+    {
+     "name": "Convenient Parking",
+     "ms": 116467
+    },
+    {
+     "name": "Trucker's Atlas",
+     "ms": 169627
+    },
+    {
+     "name": "Ocean Breathes Salty",
+     "ms": 276493
+    }
+   ]
+  },
+  {
+   "id": 1863144129,
+   "title": "Afric Pepperbird",
+   "artist": "Jan Garbarek Quartet",
+   "year": "1971",
+   "genre": "Jazz",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/47/a0/6f/47a06f90-849c-331f-cc65-26de30cff111/25UM1IM97507.rgb.jpg/1200x1200bb.jpg",
+   "url": "https://music.apple.com/za/album/afric-pepperbird/1863144129?uo=4",
+   "tracks": [
+    {
+     "name": "Skarabée",
+     "ms": 385739
+    },
+    {
+     "name": "Mah-Jong",
+     "ms": 116477
+    },
+    {
+     "name": "Beast Of Kommodo",
+     "ms": 747753
+    },
+    {
+     "name": "Blow Away Zone",
+     "ms": 521651
+    },
+    {
+     "name": "MYB",
+     "ms": 112693
+    },
+    {
+     "name": "Concentus",
+     "ms": 54256
+    },
+    {
+     "name": "Afric Pepperbird",
+     "ms": 477286
+    },
+    {
+     "name": "Blupp",
+     "ms": 71813
+    }
+   ]
+  },
+  {
+   "id": 257190298,
+   "title": "Scarlatti: Piano Sonatas",
+   "artist": "Anne Queffélec",
+   "year": "1975",
+   "genre": "Classical",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music/2f/fc/ba/mzi.hnootdzy.jpg/1200x1200bb.jpg",
+   "url": "https://music.apple.com/za/album/scarlatti-piano-sonatas/257190298?uo=4",
+   "tracks": [
+    {
+     "name": "Piano Sonata in D Major Kk96",
+     "ms": 269173
+    },
+    {
+     "name": "Piano Sonata in, B Minor Kk27",
+     "ms": 253133
+    },
+    {
+     "name": "Piano Sonata in D Major Kk492",
+     "ms": 196733
+    },
+    {
+     "name": "Piano Sonata in E Major Kk531",
+     "ms": 204800
+    },
+    {
+     "name": "Piano Sonata in C-Sharp Minor Kk247",
+     "ms": 328067
+    },
+    {
+     "name": "Piano Sonata in D Minor Kk9",
+     "ms": 212733
+    },
+    {
+     "name": "Piano Sonata in C Major Kk159",
+     "ms": 118800
+    },
+    {
+     "name": "Piano Sonata in C Major Kk159",
+     "ms": 248693
+    },
+    {
+     "name": "Piano Sonata in D Major Kk33",
+     "ms": 159400
+    },
+    {
+     "name": "Piano Sonata in, B Minor Kk87",
+     "ms": 433600
+    },
+    {
+     "name": "Piano Sonata in G Major Kk427",
+     "ms": 122093
+    },
+    {
+     "name": "Piano Sonata in E-Flat Major Kk193",
+     "ms": 258827
+    },
+    {
+     "name": "Piano Sonata in G Minor Kk30",
+     "ms": 229733
+    }
+   ]
+  },
+  {
+   "id": 1773452891,
+   "title": "In Concert Wildflowers at the Town Hall NYC (Live) [feat. The Harlem Chamber Players]",
+   "artist": "Judy Collins",
+   "year": "2024",
+   "genre": "Traditional Folk",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f0/54/89/f05489d8-6044-1c72-4cbe-eb7e103801fd/889466586361.jpg/1200x1200bb.jpg",
+   "url": "https://music.apple.com/za/album/in-concert-wildflowers-at-the-town-hall-nyc-live-feat/1773452891?uo=4",
+   "tracks": [
+    {
+     "name": "Michael from Moutains (feat. The Harlem Chamber Players) [Live 2024]",
+     "ms": 202202
+    },
+    {
+     "name": "Since You've Asked (feat. The Harlem Chamber Players) [Live 2024]",
+     "ms": 147439
+    },
+    {
+     "name": "Sisters of Mercy (feat. The Harlem Chamber Players) [Live 2024]",
+     "ms": 172089
+    },
+    {
+     "name": "Priests (feat. The Harlem Chamber Players) [Live 2024]",
+     "ms": 281907
+    },
+    {
+     "name": "Lasso! Di Donna (feat. The Harlem Chamber Players) [Live 2024]",
+     "ms": 196880
+    },
+    {
+     "name": "Both Sides Now (feat. The Harlem Chamber Players) [Live 2024]",
+     "ms": 209368
+    },
+    {
+     "name": "La Chanson des Vieux Amants (feat. The Harlem Chamber Players) [Live 2024]",
+     "ms": 299800
+    },
+    {
+     "name": "Sky Fell (feat. The Harlem Chamber Players) [Live 2024]",
+     "ms": 111203
+    },
+    {
+     "name": "Albatross (feat. The Harlem Chamber Players) [Live 2024]",
+     "ms": 350225
+    },
+    {
+     "name": "Hey, That's No Way To Say Goodbye (feat. The Harlem Chamber Players) [Live 2024]",
+     "ms": 235761
+    }
+   ]
+  },
+  {
+   "id": 1383306166,
+   "title": "Chamber Folk",
+   "artist": "Owen Ralph",
+   "year": "2018",
+   "genre": "Traditional Folk",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/a9/f5/5b/a9f55b5e-53d0-d732-2f96-2167793aea81/859726233823_cover.jpg/1200x1200bb.jpg",
+   "url": "https://music.apple.com/za/album/chamber-folk/1383306166?uo=4",
+   "tracks": [
+    {
+     "name": "This Might Be...",
+     "ms": 67453
+    },
+    {
+     "name": "The Sign of the Bonny Blue Bell",
+     "ms": 278507
+    },
+    {
+     "name": "Môn",
+     "ms": 243133
+    },
+    {
+     "name": "The False Young Man",
+     "ms": 262600
+    },
+    {
+     "name": "The Ring / The Robber (feat. Jim Causley)",
+     "ms": 296613
+    },
+    {
+     "name": "Isabel (feat. Rosie Hood)",
+     "ms": 287907
+    },
+    {
+     "name": "Erin's Lovely Home",
+     "ms": 379787
+    }
+   ]
+  },
+  {
+   "id": 1890569006,
+   "title": "Voiceless",
+   "artist": "Melodic Web",
+   "year": "2026",
+   "genre": "Punk",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/22/1e/d9/221ed97f-c993-29b6-8c09-b9b562fc0d22/artwork.jpg/1200x1200bb.jpg",
+   "url": "https://music.apple.com/za/album/voiceless/1890569006?uo=4",
+   "tracks": [
+    {
+     "name": "Rise",
+     "ms": 69843
+    },
+    {
+     "name": "Falling out",
+     "ms": 248172
+    },
+    {
+     "name": "Cheerful",
+     "ms": 242880
+    },
+    {
+     "name": "Failure",
+     "ms": 245200
+    },
+    {
+     "name": "Atone",
+     "ms": 239255
+    },
+    {
+     "name": "Bring me death",
+     "ms": 203590
+    },
+    {
+     "name": "Spirit lifted",
+     "ms": 227800
+    },
+    {
+     "name": "Fallen Angel",
+     "ms": 209534
+    },
+    {
+     "name": "Typical",
+     "ms": 255280
+    },
+    {
+     "name": "Watching you",
+     "ms": 182784
+    }
+   ]
+  },
+  {
+   "id": 1727762262,
+   "title": "Exotica",
+   "artist": "Various Artists",
+   "year": "1997",
+   "genre": "Easy Listening",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/3e/3a/b4/3e3ab482-2d98-9bcb-b214-116e144be138/196922819308_Cover.jpg/1200x1200bb.jpg",
+   "url": "https://music.apple.com/za/album/exotica/1727762262?uo=4",
+   "tracks": [
+    {
+     "name": "Bossa Mia",
+     "ms": 145627
+    },
+    {
+     "name": "Let's Go",
+     "ms": 107067
+    },
+    {
+     "name": "Exotica",
+     "ms": 184773
+    },
+    {
+     "name": "Running Machine",
+     "ms": 49600
+    },
+    {
+     "name": "Action Power",
+     "ms": 95467
+    },
+    {
+     "name": "Rumbanita",
+     "ms": 169467
+    },
+    {
+     "name": "Tropical",
+     "ms": 163293
+    },
+    {
+     "name": "Man From Malibu-Latin",
+     "ms": 31640
+    },
+    {
+     "name": "Natural Girl",
+     "ms": 125067
+    },
+    {
+     "name": "Cool Comic",
+     "ms": 114027
+    },
+    {
+     "name": "Rhythm Maker",
+     "ms": 246333
+    },
+    {
+     "name": "More Melodies (A)",
+     "ms": 29507
+    },
+    {
+     "name": "More Melodies (B)",
+     "ms": 29133
+    },
+    {
+     "name": "Mexican Jazz Suite",
+     "ms": 37933
+    },
+    {
+     "name": "The Happy Samba",
+     "ms": 102293
+    },
+    {
+     "name": "Reve Pour Une Image",
+     "ms": 178240
+    },
+    {
+     "name": "Marchinada Da Victoria",
+     "ms": 136867
+    },
+    {
+     "name": "Calypso Joe",
+     "ms": 132227
+    },
+    {
+     "name": "Club Date",
+     "ms": 160600
+    },
+    {
+     "name": "Industrial Samba",
+     "ms": 77973
+    },
+    {
+     "name": "Les Fous De Soleil",
+     "ms": 107800
+    },
+    {
+     "name": "Poivre, Piments Et Pin-Up",
+     "ms": 126960
+    },
+    {
+     "name": "Rio De Janeiro",
+     "ms": 178667
+    },
+    {
+     "name": "Rhumba Drumdramatics",
+     "ms": 42840
+    },
+    {
+     "name": "Rhumba Dramadrums",
+     "ms": 33160
+    },
+    {
+     "name": "Bongo Drumdramatics",
+     "ms": 40267
+    },
+    {
+     "name": "Long Beach Florida",
+     "ms": 160573
+    },
+    {
+     "name": "Jazz Samba",
+     "ms": 63000
+    },
+    {
+     "name": "Fatima",
+     "ms": 127600
+    },
+    {
+     "name": "Tropic Night",
+     "ms": 182560
+    },
+    {
+     "name": "Far Out In Spain",
+     "ms": 90533
+    },
+    {
+     "name": "Djanina",
+     "ms": 156640
+    },
+    {
+     "name": "Bossa",
+     "ms": 161667
+    },
+    {
+     "name": "Man From Malibu",
+     "ms": 50160
+    }
+   ]
+  },
+  {
+   "id": 207346224,
+   "title": "Unleashed In the East (Live)",
+   "artist": "Judas Priest",
+   "year": "1979",
+   "genre": "Metal",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/dc/e0/7f/dce07f3f-436a-b1cf-2875-af73322b827f/dj.pvudqtme.jpg/1200x1200bb.jpg",
+   "url": "https://music.apple.com/za/album/unleashed-in-the-east-live/207346224?uo=4",
+   "tracks": [
+    {
+     "name": "Exciter (Live)",
+     "ms": 338693
+    },
+    {
+     "name": "Running Wild (Live)",
+     "ms": 173440
+    },
+    {
+     "name": "Sinner (Live)",
+     "ms": 451533
+    },
+    {
+     "name": "The Ripper (Live)",
+     "ms": 164400
+    },
+    {
+     "name": "The Green Manalishi (With the Two-Pronged Crown) [Live]",
+     "ms": 196267
+    },
+    {
+     "name": "Diamonds and Rust (Live)",
+     "ms": 210733
+    },
+    {
+     "name": "Victim of Changes (Live)",
+     "ms": 432760
+    },
+    {
+     "name": "Genocide (Live)",
+     "ms": 439507
+    },
+    {
+     "name": "Tyrant (Live)",
+     "ms": 272733
+    },
+    {
+     "name": "Rock Forever (Live)",
+     "ms": 207693
+    },
+    {
+     "name": "Delivering the Goods (Live)",
+     "ms": 247307
+    },
+    {
+     "name": "Hell Bent for Leather (Live)",
+     "ms": 160627
+    },
+    {
+     "name": "Starbreaker (Live)",
+     "ms": 360000
+    }
+   ]
+  },
+  {
+   "id": 1615473504,
+   "title": "Bridgerton Season Two (Covers from the Netflix Series)",
+   "artist": "Various Artists",
+   "year": "2022",
+   "genre": "Soundtrack",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/93/e0/d0/93e0d054-ea96-925e-12f5-5f29732961a7/22UMGIM26019.rgb.jpg/1200x1200bb.jpg",
+   "url": "https://music.apple.com/za/album/bridgerton-season-two-covers-from-the-netflix-series/1615473504?uo=4",
+   "tracks": [
+    {
+     "name": "Stay Away",
+     "ms": 184857
+    },
+    {
+     "name": "Material Girl",
+     "ms": 244340
+    },
+    {
+     "name": "Diamonds",
+     "ms": 116170
+    },
+    {
+     "name": "Dancing On My Own",
+     "ms": 279312
+    },
+    {
+     "name": "You Oughta Know",
+     "ms": 167610
+    },
+    {
+     "name": "Kabhi Khushi Kabhie Gham",
+     "ms": 208893
+    },
+    {
+     "name": "Sign of the Times (Stripped)",
+     "ms": 159454
+    },
+    {
+     "name": "What About Us",
+     "ms": 291213
+    },
+    {
+     "name": "How Deep Is Your Love",
+     "ms": 226434
+    },
+    {
+     "name": "Wrecking Ball",
+     "ms": 233772
+    }
+   ]
+  }
+ ]
+}
