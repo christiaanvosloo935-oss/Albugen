@@ -1,2138 +1,2190 @@
 {
- "generated": "2026-10-11T22:20:08.828Z",
+ "generated": "2026-10-18T22:25:50.185Z",
  "storefront": "za",
  "albums": [
   {
-   "id": 6767305281,
-   "title": "Full Moon Chamber",
-   "artist": "Prateek Kuhad",
-   "year": "2026",
-   "genre": "Singer/Songwriter",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ac/52/17/ac521772-c951-8b9e-6500-01bb8ae5119c/075679577184.jpg/1200x1200bb.jpg",
-   "url": "https://music.apple.com/za/album/full-moon-chamber/6767305281?uo=4",
-   "tracks": [
-    {
-     "name": "a poetic concept",
-     "ms": 71467
-    },
-    {
-     "name": "Blush",
-     "ms": 186533
-    },
-    {
-     "name": "No Complaints (Album Version)",
-     "ms": 185000
-    },
-    {
-     "name": "If I Cannot Be Yours",
-     "ms": 187133
-    },
-    {
-     "name": "Something In The Way",
-     "ms": 164867
-    },
-    {
-     "name": "Come Home To Me",
-     "ms": 210933
-    },
-    {
-     "name": "lunar interlude",
-     "ms": 58693
-    },
-    {
-     "name": "Oh Camille",
-     "ms": 181947
-    },
-    {
-     "name": "Just Like A Movie (Album Version)",
-     "ms": 179427
-    },
-    {
-     "name": "Under The Stars",
-     "ms": 240667
-    },
-    {
-     "name": "You Make It Easy",
-     "ms": 149333
-    },
-    {
-     "name": "Found You In May",
-     "ms": 180000
-    },
-    {
-     "name": "I'm Someone New (Album Version)",
-     "ms": 253000
-    },
-    {
-     "name": "moonlight serenade",
-     "ms": 125000
-    }
-   ]
-  },
-  {
-   "id": 1529619361,
-   "title": "Dimensional Stardust",
-   "artist": "Rob Mazurek & Exploding Star Orchestra",
-   "year": "2020",
+   "id": 1556277715,
+   "title": "Tezeta",
+   "artist": "Hailu Mergia & The Walias",
+   "year": "2021",
    "genre": "Jazz",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/cc/d2/09/ccd209c3-a5bb-44e8-dca6-b4f5960ab435/0603784912370.png/1200x1200bb.jpg",
-   "url": "https://music.apple.com/za/album/dimensional-stardust/1529619361?uo=4",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/64/91/c4/6491c4f2-1c65-9df0-a6dc-87d2306dd76b/ATFA041_art.jpg/1200x1200bb.jpg",
+   "url": "https://music.apple.com/za/album/tezeta/1556277715?uo=4",
    "tracks": [
     {
-     "name": "Sun Core Tet (Parable 99)",
-     "ms": 348607
+     "name": "Tezeta",
+     "ms": 270648
     },
     {
-     "name": "A Wrinkle in Time Sets Concentric Circles Reeling",
-     "ms": 387760
+     "name": "Endegena",
+     "ms": 300721
     },
     {
-     "name": "Galaxy 1000",
-     "ms": 209307
+     "name": "Zengadyw Derekou",
+     "ms": 220640
     },
     {
-     "name": "The Careening Prism Within (Parable 43)",
-     "ms": 179480
+     "name": "Gumegum",
+     "ms": 266914
     },
     {
-     "name": "Abstract Dark Energy (Parable 9)",
-     "ms": 168973
+     "name": "Nefas New Zemedie",
+     "ms": 214813
     },
     {
-     "name": "Parable of Inclusion",
-     "ms": 243067
+     "name": "Atmetalegnem Woi",
+     "ms": 219189
     },
     {
-     "name": "Dimensional Stardust (Parable 33)",
-     "ms": 266693
+     "name": "Mestirawi Debdabe",
+     "ms": 276962
     },
     {
-     "name": "Minerals Bionic Stereo",
-     "ms": 105307
+     "name": "Ou-Ou-Ta",
+     "ms": 203024
     },
     {
-     "name": "Parable 3000 (We All Come from Somewhere Else)",
-     "ms": 289827
-    },
-    {
-     "name": "Autumn Pleiades",
-     "ms": 386745
+     "name": "Aya Belew Belew",
+     "ms": 264500
     }
    ]
   },
   {
-   "id": 1451159043,
-   "title": "Screws",
-   "artist": "Nils Frahm",
-   "year": "2012",
-   "genre": "Ambient",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/2a/0f/ea/2a0fea01-5774-1f85-912f-b5f08049b9b0/4050486086612_cover.jpg/1200x1200bb.jpg",
-   "url": "https://music.apple.com/za/album/screws/1451159043?uo=4",
-   "tracks": [
-    {
-     "name": "You",
-     "ms": 186711
-    },
-    {
-     "name": "Do",
-     "ms": 184906
-    },
-    {
-     "name": "Re",
-     "ms": 230125
-    },
-    {
-     "name": "Mi",
-     "ms": 239563
-    },
-    {
-     "name": "Fa",
-     "ms": 145625
-    },
-    {
-     "name": "Sol",
-     "ms": 149875
-    },
-    {
-     "name": "La",
-     "ms": 191031
-    },
-    {
-     "name": "Si",
-     "ms": 203469
-    },
-    {
-     "name": "Me",
-     "ms": 151000
-    }
-   ]
-  },
-  {
-   "id": 1477886950,
-   "title": "Hollywood's Bleeding",
-   "artist": "Post Malone",
-   "year": "2019",
-   "genre": "Hip-Hop/Rap",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/6c/13/27/6c13279a-399b-2631-3cb2-6233a91d7a53/19UMGIM78325.rgb.jpg/1200x1200bb.jpg",
-   "url": "https://music.apple.com/za/album/hollywoods-bleeding/1477886950?uo=4",
-   "tracks": [
-    {
-     "name": "Hollywood's Bleeding",
-     "ms": 156253
-    },
-    {
-     "name": "Saint-Tropez",
-     "ms": 150867
-    },
-    {
-     "name": "Enemies (feat. DaBaby)",
-     "ms": 196760
-    },
-    {
-     "name": "Allergic",
-     "ms": 156893
-    },
-    {
-     "name": "A Thousand Bad Times",
-     "ms": 221173
-    },
-    {
-     "name": "Circles",
-     "ms": 215280
-    },
-    {
-     "name": "Die For Me (feat. Future & Halsey)",
-     "ms": 245274
-    },
-    {
-     "name": "On the Road (feat. Meek Mill & Lil Baby)",
-     "ms": 218307
-    },
-    {
-     "name": "Take What You Want (feat. Ozzy Osbourne & Travis Scott)",
-     "ms": 229587
-    },
-    {
-     "name": "I'm Gonna Be",
-     "ms": 200680
-    },
-    {
-     "name": "Staring at the Sun (feat. SZA)",
-     "ms": 168280
-    },
-    {
-     "name": "Sunflower (Spider-Man: Into the Spider-Verse)",
-     "ms": 157560
-    },
-    {
-     "name": "Internet",
-     "ms": 123387
-    },
-    {
-     "name": "Goodbyes (feat. Young Thug)",
-     "ms": 174840
-    },
-    {
-     "name": "Myself",
-     "ms": 158120
-    },
-    {
-     "name": "I Know",
-     "ms": 141440
-    },
-    {
-     "name": "Wow.",
-     "ms": 149520
-    }
-   ]
-  },
-  {
-   "id": 1440345266,
-   "title": "The Valley",
-   "artist": "Whitechapel",
-   "year": "2019",
-   "genre": "Metal",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/84/dd/51/84dd518e-564d-204f-ddda-ed40a8fded46/Whitechapel_-_The_Valley.jpg/1200x1200bb.jpg",
-   "url": "https://music.apple.com/za/album/the-valley/1440345266?uo=4",
-   "tracks": [
-    {
-     "name": "When a Demon Defiles a Witch",
-     "ms": 304060
-    },
-    {
-     "name": "Forgiveness Is Weakness",
-     "ms": 175114
-    },
-    {
-     "name": "Brimstone",
-     "ms": 205248
-    },
-    {
-     "name": "Hickory Creek",
-     "ms": 296447
-    },
-    {
-     "name": "Black Bear",
-     "ms": 188538
-    },
-    {
-     "name": "We Are One",
-     "ms": 238019
-    },
-    {
-     "name": "The Other Side",
-     "ms": 197227
-    },
-    {
-     "name": "Third Depth",
-     "ms": 247640
-    },
-    {
-     "name": "Lovelace",
-     "ms": 228783
-    },
-    {
-     "name": "Doom Woods",
-     "ms": 351600
-    }
-   ]
-  },
-  {
-   "id": 1612685417,
-   "title": "Jansson: Requiem Novum",
-   "artist": "Philharmonia Orchestra, Anna Dennis, VOCES8, Apollo5 & Barnaby Smith",
-   "year": "2022",
-   "genre": "Classical",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/32/cc/59/32cc5979-c52e-fad1-1674-b9f45dabe7f3/5060140211488.jpg/1200x1200bb.jpg",
-   "url": "https://music.apple.com/za/album/jansson-requiem-novum/1612685417?uo=4",
-   "tracks": [
-    {
-     "name": "Requiem Novum: I. Introitus",
-     "ms": 438800
-    },
-    {
-     "name": "Requiem Novum: IIa. Or So the Living Pray",
-     "ms": 182187
-    },
-    {
-     "name": "Requiem Novum: IIb. Kyrie",
-     "ms": 204267
-    },
-    {
-     "name": "Requiem Novum: IIIa. Cry Not in Anguished Voices",
-     "ms": 202387
-    },
-    {
-     "name": "Requiem Novum: IIIb. Dies irae",
-     "ms": 523467
-    },
-    {
-     "name": "Requiem Novum: IVa. On That Day of Weeping",
-     "ms": 385213
-    },
-    {
-     "name": "Requiem Novum: IVb. Sanctus",
-     "ms": 188933
-    },
-    {
-     "name": "Requiem Novum: V. I Stand Upon a Landscape of Infinity",
-     "ms": 343853
-    },
-    {
-     "name": "Requiem Novum: VI. Pie Jesu",
-     "ms": 185960
-    },
-    {
-     "name": "Requiem Novum: VIIa. Eternal Rest",
-     "ms": 75667
-    },
-    {
-     "name": "Requiem Novum: VIIb. In Paradisum",
-     "ms": 252280
-    },
-    {
-     "name": "Requiem Novum: VIIc. Here on the Other Side of Eternity",
-     "ms": 207440
-    },
-    {
-     "name": "Requiem Novum: IV. Sanctus (Radio Edit)",
-     "ms": 187640
-    }
-   ]
-  },
-  {
-   "id": 6770618653,
-   "title": "Life Forms",
-   "artist": "Kupla",
-   "year": "2020",
+   "id": 724653175,
+   "title": "Ambient 2: The Plateaux of Mirror",
+   "artist": "Brian Eno",
+   "year": "1980",
    "genre": "Electronic",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f9/39/08/f9390897-85ab-1ce3-5263-28def43213c6/859740844722.jpg/1200x1200bb.jpg",
-   "url": "https://music.apple.com/za/album/life-forms/6770618653?uo=4",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/77/34/cb/7734cb44-688f-0a0f-6d09-ed12977f4c5e/00724386649751.rgb.jpg/1200x1200bb.jpg",
+   "url": "https://music.apple.com/za/album/ambient-2-the-plateaux-of-mirror/724653175?uo=4",
    "tracks": [
     {
-     "name": "Soft to Touch",
-     "ms": 169691
+     "name": "First Light",
+     "ms": 426533
     },
     {
-     "name": "Eons",
-     "ms": 207543
+     "name": "Steal Away",
+     "ms": 89813
     },
     {
-     "name": "Heroes",
-     "ms": 140382
+     "name": "The Plateaux of Mirror",
+     "ms": 253893
     },
     {
-     "name": "A Waltz for My Best Friend",
-     "ms": 134008
+     "name": "Above Chiangmai",
+     "ms": 175747
+    },
+    {
+     "name": "An Arc of Doves",
+     "ms": 389133
+    },
+    {
+     "name": "Not Yet Remembered",
+     "ms": 230853
+    },
+    {
+     "name": "The Chill Air",
+     "ms": 133707
+    },
+    {
+     "name": "Among Fields of Crystal",
+     "ms": 204680
+    },
+    {
+     "name": "Wind In Lonely Fences",
+     "ms": 238240
+    },
+    {
+     "name": "Failing Light",
+     "ms": 254000
+    }
+   ]
+  },
+  {
+   "id": 1480411285,
+   "title": "Surviving",
+   "artist": "Jimmy Eat World",
+   "year": "2019",
+   "genre": "Alternative",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/b3/ce/c9/b3cec9e7-5fa9-a4db-b732-b4dfb6bc3f76/886447789339.jpg/1200x1200bb.jpg",
+   "url": "https://music.apple.com/za/album/surviving/1480411285?uo=4",
+   "tracks": [
+    {
+     "name": "Surviving",
+     "ms": 184781
+    },
+    {
+     "name": "Criminal Energy",
+     "ms": 191257
+    },
+    {
+     "name": "Delivery",
+     "ms": 193387
+    },
+    {
+     "name": "555",
+     "ms": 221175
+    },
+    {
+     "name": "One Mil",
+     "ms": 187464
+    },
+    {
+     "name": "All the Way (Stay)",
+     "ms": 245739
+    },
+    {
+     "name": "Diamond",
+     "ms": 193461
+    },
+    {
+     "name": "Love Never",
+     "ms": 174343
+    },
+    {
+     "name": "Recommit",
+     "ms": 230177
+    },
+    {
+     "name": "Congratulations",
+     "ms": 371336
+    }
+   ]
+  },
+  {
+   "id": 1440898752,
+   "title": "The Shape of Water (Original Motion Picture Soundtrack)",
+   "artist": "Alexandre Desplat",
+   "year": "2007",
+   "genre": "Soundtrack",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/58/8b/ac/588bac5c-1f6e-6488-6771-2c664028f6cd/00602567235811.rgb.jpg/1200x1200bb.jpg",
+   "url": "https://music.apple.com/za/album/the-shape-of-water-original-motion-picture-soundtrack/1440898752?uo=4",
+   "tracks": [
+    {
+     "name": "The Shape of Water",
+     "ms": 222573
+    },
+    {
+     "name": "You'll Never Know (feat. Renée Fleming)",
+     "ms": 278293
+    },
+    {
+     "name": "The Creature",
+     "ms": 106920
+    },
+    {
+     "name": "Elisa's Theme",
+     "ms": 156467
+    },
+    {
+     "name": "Fingers",
+     "ms": 129107
+    },
+    {
+     "name": "Spy Meeting",
+     "ms": 102907
+    },
+    {
+     "name": "Elisa and Zelda",
+     "ms": 70093
+    },
+    {
+     "name": "Five Stars General",
+     "ms": 91587
+    },
+    {
+     "name": "The Silence of Love",
+     "ms": 95027
+    },
+    {
+     "name": "Egg",
+     "ms": 133440
+    },
+    {
+     "name": "That Isn't Good",
+     "ms": 103533
+    },
+    {
+     "name": "Underwater Kiss",
+     "ms": 132280
+    },
+    {
+     "name": "The Escape",
+     "ms": 657640
+    },
+    {
+     "name": "Watching Ruth",
+     "ms": 138040
+    },
+    {
+     "name": "Decency",
+     "ms": 143427
+    },
+    {
+     "name": "He's Coming For You",
+     "ms": 99493
+    },
+    {
+     "name": "Overflow of Love",
+     "ms": 176187
+    },
+    {
+     "name": "Without You",
+     "ms": 150520
+    },
+    {
+     "name": "Rainy Day",
+     "ms": 192733
+    },
+    {
+     "name": "A Princess Without a Voice",
+     "ms": 110200
+    },
+    {
+     "name": "La Javanaise",
+     "ms": 250760
+    },
+    {
+     "name": "I Know Why (And So Do You)",
+     "ms": 178133
+    },
+    {
+     "name": "Chica Chica Boom Chic",
+     "ms": 139373
+    },
+    {
+     "name": "Babalu",
+     "ms": 171813
+    },
+    {
+     "name": "A Summer Place",
+     "ms": 154987
+    },
+    {
+     "name": "You'll Never Know (feat. Renée Fleming) [Alternative Version]",
+     "ms": 409800
+    }
+   ]
+  },
+  {
+   "id": 1088528654,
+   "title": "Heartbeat City",
+   "artist": "The Cars",
+   "year": "1984",
+   "genre": "Rock",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/4a/56/52/4a56520d-7c2b-ae69-0057-4c9827e4ad06/603497879038.jpg/1200x1200bb.jpg",
+   "url": "https://music.apple.com/za/album/heartbeat-city/1088528654?uo=4",
+   "tracks": [
+    {
+     "name": "Hello Again",
+     "ms": 226415
+    },
+    {
+     "name": "Looking for Love",
+     "ms": 231555
     },
     {
      "name": "Magic",
-     "ms": 186331
+     "ms": 237232
     },
     {
-     "name": "Those Were the Days",
-     "ms": 180715
+     "name": "Drive",
+     "ms": 234332
     },
     {
-     "name": "Mycelium",
-     "ms": 176953
+     "name": "Stranger Eyes",
+     "ms": 264839
     },
     {
-     "name": "Weightless",
-     "ms": 174838
+     "name": "You Might Think",
+     "ms": 184717
     },
     {
-     "name": "Microscopic",
-     "ms": 165277
+     "name": "It's Not the Night",
+     "ms": 228771
     },
     {
-     "name": "Distant Lands",
-     "ms": 170684
+     "name": "Why Can't I Have You",
+     "ms": 243834
     },
     {
-     "name": "Natural Ways",
-     "ms": 171468
+     "name": "I Refuse",
+     "ms": 195882
     },
     {
-     "name": "Purple Vision",
-     "ms": 156630
+     "name": "Heartbeat City",
+     "ms": 270764
+    }
+   ]
+  },
+  {
+   "id": 1440862789,
+   "title": "Ceremonials (Deluxe)",
+   "artist": "Florence + the Machine",
+   "year": "2011",
+   "genre": "Alternative",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/3d/b7/62/3db762e7-36f5-d3fe-5bd2-553bc5f9c61b/11UMGIM28251.rgb.jpg/1200x1200bb.jpg",
+   "url": "https://music.apple.com/za/album/ceremonials-deluxe/1440862789?uo=4",
+   "tracks": [
+    {
+     "name": "Only If for a Night",
+     "ms": 297764
+    },
+    {
+     "name": "Shake It Out",
+     "ms": 277637
+    },
+    {
+     "name": "What the Water Gave Me",
+     "ms": 333509
+    },
+    {
+     "name": "Never Let Me Go",
+     "ms": 271377
+    },
+    {
+     "name": "Breaking Down",
+     "ms": 228525
+    },
+    {
+     "name": "Lover to Lover",
+     "ms": 242681
+    },
+    {
+     "name": "No Light, No Light",
+     "ms": 274821
+    },
+    {
+     "name": "Seven Devils",
+     "ms": 303245
+    },
+    {
+     "name": "Heartlines",
+     "ms": 301588
+    },
+    {
+     "name": "Spectrum",
+     "ms": 311588
+    },
+    {
+     "name": "All This and Heaven Too",
+     "ms": 245882
+    },
+    {
+     "name": "Leave My Body",
+     "ms": 274232
+    },
+    {
+     "name": "Spectrum (Say My Name) [Calvin Harris Remix]",
+     "ms": 218190
+    },
+    {
+     "name": "Breath of Life",
+     "ms": 248460
+    },
+    {
+     "name": "Take Care (BBC Live At Maida Vale)",
+     "ms": 278537
+    },
+    {
+     "name": "What The Water Gave Me",
+     "ms": 332720
+    }
+   ]
+  },
+  {
+   "id": 1754587469,
+   "title": "Come Up Here",
+   "artist": "Bethel Music",
+   "year": "2023",
+   "genre": "Christian",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/57/86/07/5786077d-58ef-e6d4-d96a-0bdf3fd3550c/611851680565_TImage.jpg/1200x1200bb.jpg",
+   "url": "https://music.apple.com/za/album/come-up-here/1754587469?uo=4",
+   "tracks": [
+    {
+     "name": "The Great Beyond (feat. Amanda Cook)",
+     "ms": 374042
+    },
+    {
+     "name": "Holy Forever",
+     "ms": 324688
+    },
+    {
+     "name": "Beauty",
+     "ms": 318116
+    },
+    {
+     "name": "Precious Blood (feat. Amanda Cook)",
+     "ms": 281759
+    },
+    {
+     "name": "Isn't He Beautiful",
+     "ms": 340929
+    },
+    {
+     "name": "Surrounded By Holy",
+     "ms": 294156
+    },
+    {
+     "name": "I Am Your Beloved",
+     "ms": 486946
+    },
+    {
+     "name": "Time and Time Again",
+     "ms": 229559
+    },
+    {
+     "name": "Inheritance",
+     "ms": 236597
+    },
+    {
+     "name": "Our King Jesus (Holy)",
+     "ms": 328245
+    },
+    {
+     "name": "Come Up Here",
+     "ms": 269608
+    },
+    {
+     "name": "Come Up Here",
+     "ms": 269910
+    },
+    {
+     "name": "Beauty",
+     "ms": 318422
+    },
+    {
+     "name": "The Great Beyond (feat. Amanda Cook)",
+     "ms": 374336
+    },
+    {
+     "name": "Time and Time Again",
+     "ms": 229739
+    },
+    {
+     "name": "Surrounded By Holy",
+     "ms": 294443
+    },
+    {
+     "name": "Precious Blood (feat. Amanda Cook)",
+     "ms": 282091
+    },
+    {
+     "name": "I Am Your Beloved",
+     "ms": 487168
+    },
+    {
+     "name": "Our King Jesus (Holy)",
+     "ms": 328512
+    },
+    {
+     "name": "Isn't He Beautiful",
+     "ms": 341227
+    },
+    {
+     "name": "Holy Forever",
+     "ms": 325014
+    },
+    {
+     "name": "Inheritance",
+     "ms": 236672
+    }
+   ]
+  },
+  {
+   "id": 808043806,
+   "title": "Musique Concrète",
+   "artist": "THE JUJUJUs",
+   "year": "2014",
+   "genre": "Ambient",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/0c/91/1f/0c911f36-1ecc-a6de-a84f-e449d63ced31/cover.jpg/1200x1200bb.jpg",
+   "url": "https://music.apple.com/za/album/musique-concr%C3%A8te/808043806?uo=4",
+   "tracks": [
+    {
+     "name": "Further",
+     "ms": 272667
+    },
+    {
+     "name": "Homework",
+     "ms": 195760
+    },
+    {
+     "name": "Winter",
+     "ms": 264387
+    },
+    {
+     "name": "Filter",
+     "ms": 312813
+    },
+    {
+     "name": "Gods",
+     "ms": 274227
+    },
+    {
+     "name": "Dance With Me",
+     "ms": 194560
+    },
+    {
+     "name": "Help Myself",
+     "ms": 204320
+    },
+    {
+     "name": "The Wobble",
+     "ms": 195533
+    },
+    {
+     "name": "Synthie Love",
+     "ms": 307440
+    },
+    {
+     "name": "Better Than Before",
+     "ms": 196000
+    },
+    {
+     "name": "Help Myself (Eva Gallo Remix)",
+     "ms": 419667
+    },
+    {
+     "name": "Gods (DJ Aroma Remix)",
+     "ms": 441760
+    }
+   ]
+  },
+  {
+   "id": 1867890087,
+   "title": "Minecraft - Volume Beta",
+   "artist": "C418",
+   "year": "2013",
+   "genre": "Soundtrack",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/dc/26/fd/dc26fd7b-3f58-e34b-375c-4f7a0b70f741/859711538643.jpg/1200x1200bb.jpg",
+   "url": "https://music.apple.com/za/album/minecraft-volume-beta/1867890087?uo=4",
+   "tracks": [
+    {
+     "name": "Ki",
+     "ms": 92000
+    },
+    {
+     "name": "Alpha",
+     "ms": 603000
+    },
+    {
+     "name": "Dead Voxel",
+     "ms": 296000
+    },
+    {
+     "name": "Blind Spots",
+     "ms": 332500
+    },
+    {
+     "name": "Flake",
+     "ms": 170323
+    },
+    {
+     "name": "Moog City 2",
+     "ms": 180000
+    },
+    {
+     "name": "Concrete Halls",
+     "ms": 254177
+    },
+    {
+     "name": "Biome Fest",
+     "ms": 378068
+    },
+    {
+     "name": "Mutation",
+     "ms": 185000
+    },
+    {
+     "name": "Haunt Muskie",
+     "ms": 361677
+    },
+    {
+     "name": "Warmth",
+     "ms": 239379
+    },
+    {
+     "name": "Floating Trees",
+     "ms": 244875
+    },
+    {
+     "name": "Aria Math",
+     "ms": 310000
+    },
+    {
+     "name": "Kyoto",
+     "ms": 249000
+    },
+    {
+     "name": "Ballad of the Cats",
+     "ms": 275500
+    },
+    {
+     "name": "Taswell",
+     "ms": 515500
+    },
+    {
+     "name": "Beginning 2",
+     "ms": 176000
+    },
+    {
+     "name": "Dreiton",
+     "ms": 497000
+    },
+    {
+     "name": "The End",
+     "ms": 904528
+    },
+    {
+     "name": "Chirp",
+     "ms": 186987
+    },
+    {
+     "name": "Wait",
+     "ms": 234484
+    },
+    {
+     "name": "Mellohi",
+     "ms": 98000
+    },
+    {
+     "name": "Stal",
+     "ms": 152000
+    },
+    {
+     "name": "Strad",
+     "ms": 188750
+    },
+    {
+     "name": "Eleven",
+     "ms": 71111
+    },
+    {
+     "name": "Ward",
+     "ms": 250139
+    },
+    {
+     "name": "Mall",
+     "ms": 198000
+    },
+    {
+     "name": "Blocks",
+     "ms": 343000
+    },
+    {
+     "name": "Far",
+     "ms": 192000
+    },
+    {
+     "name": "Intro",
+     "ms": 276188
+    }
+   ]
+  },
+  {
+   "id": 292402278,
+   "title": "It's All Good",
+   "artist": "Brian Simpson",
+   "year": "2005",
+   "genre": "Jazz",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/db/c8/1d/dbc81dfd-b1a2-ebdd-7ea3-5c5d266575ee/mzi.edzypxcq.tif/1200x1200bb.jpg",
+   "url": "https://music.apple.com/za/album/its-all-good/292402278?uo=4",
+   "tracks": [
+    {
+     "name": "It's All Good",
+     "ms": 212053
+    },
+    {
+     "name": "Here With You",
+     "ms": 257373
+    },
+    {
+     "name": "Saturday Cool",
+     "ms": 277840
     },
     {
      "name": "Twilight",
-     "ms": 121809
+     "ms": 294533
     },
     {
-     "name": "Sylvan",
-     "ms": 140382
+     "name": "And the Story Goes",
+     "ms": 268093
     },
     {
-     "name": "Last Walk",
-     "ms": 152712
+     "name": "Waiting",
+     "ms": 326213
     },
     {
-     "name": "Safe Haven",
-     "ms": 168464
+     "name": "I Remember When",
+     "ms": 239600
+    },
+    {
+     "name": "It Could Happen",
+     "ms": 303013
+    },
+    {
+     "name": "Blues for Scott",
+     "ms": 313813
+    },
+    {
+     "name": "Au Contraire",
+     "ms": 228467
     }
    ]
   },
   {
-   "id": 1701004771,
-   "title": "One Piece (Soundtrack from the Netflix Series)",
-   "artist": "Sonya Belousova & Giona Ostinelli",
-   "year": "2023",
-   "genre": "Soundtrack",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e2/85/69/e2856964-1f83-75c4-8a16-41a3016d881f/810123161799.png/1200x1200bb.jpg",
-   "url": "https://music.apple.com/za/album/one-piece-soundtrack-from-the-netflix-series/1701004771?uo=4",
-   "tracks": [
-    {
-     "name": "Wealth Fame Power",
-     "ms": 224699
-    },
-    {
-     "name": "My Sails Are Set (From the Netflix Series \"One Piece\") [feat. AURORA]",
-     "ms": 171339
-    },
-    {
-     "name": "Wanted Dead or Alive",
-     "ms": 308840
-    },
-    {
-     "name": "Zoro Vs Mihawk",
-     "ms": 182253
-    },
-    {
-     "name": "Let's Disappear",
-     "ms": 197240
-    },
-    {
-     "name": "We Are!",
-     "ms": 118147
-    },
-    {
-     "name": "Bang! (feat. Flawless Real Talk)",
-     "ms": 80640
-    },
-    {
-     "name": "Windmill Village",
-     "ms": 122147
-    },
-    {
-     "name": "Bink's Brew",
-     "ms": 64580
-    },
-    {
-     "name": "Captain Alvida",
-     "ms": 190587
-    },
-    {
-     "name": "Good Marines Bad Marines",
-     "ms": 110013
-    },
-    {
-     "name": "One Piece Tango",
-     "ms": 135573
-    },
-    {
-     "name": "Chop Chop Cannon",
-     "ms": 328040
-    },
-    {
-     "name": "The World's Greatest Swordsman or Woman",
-     "ms": 163547
-    },
-    {
-     "name": "Wado Ichimonji",
-     "ms": 325253
-    },
-    {
-     "name": "I'm Gonna Be King of the Pirates / We Are!",
-     "ms": 266680
-    },
-    {
-     "name": "The Grand Line",
-     "ms": 176973
-    },
-    {
-     "name": "Gotta Feed the Brain",
-     "ms": 128480
-    },
-    {
-     "name": "A Giant Goldfish Monster",
-     "ms": 135907
-    },
-    {
-     "name": "I Owe You My Life",
-     "ms": 175987
-    },
-    {
-     "name": "Captain of the Dreaded Cook Pirates",
-     "ms": 188267
-    },
-    {
-     "name": "Dracule Mihawk",
-     "ms": 173355
-    },
-    {
-     "name": "Wounds on the Back Are a Swordsman's Greatest Shame",
-     "ms": 386053
-    },
-    {
-     "name": "I Ain't Surrendering",
-     "ms": 136240
-    },
-    {
-     "name": "Lord of the Coast",
-     "ms": 150933
-    },
-    {
-     "name": "Be Good Luffy",
-     "ms": 247853
-    },
-    {
-     "name": "Nami",
-     "ms": 120373
-    },
-    {
-     "name": "Every Idiot Dreams of Finding the One Piece",
-     "ms": 93147
-    },
-    {
-     "name": "The Imposter, The Pirate Hunter and the Thief",
-     "ms": 358053
-    },
-    {
-     "name": "Gum Gum Whip",
-     "ms": 81192
-    },
-    {
-     "name": "Smells Like Butter, Soy Sauce and Meat",
-     "ms": 155560
-    },
-    {
-     "name": "Marines Make the World a Better Place",
-     "ms": 190587
-    },
-    {
-     "name": "May I Present Ms Kaya",
-     "ms": 219800
-    },
-    {
-     "name": "Vip Entrance Reserved for Special Guests",
-     "ms": 82413
-    },
-    {
-     "name": "Kaya & Usopp",
-     "ms": 407333
-    },
-    {
-     "name": "The Real Adventures of Captain Usopp",
-     "ms": 203895
-    },
-    {
-     "name": "The Stretchy Kind of Monster",
-     "ms": 141947
-    },
-    {
-     "name": "Don't You Ever Threaten My Friends",
-     "ms": 130893
-    },
-    {
-     "name": "A Hundred Million Berry",
-     "ms": 155814
-    },
-    {
-     "name": "Luffy Help Me",
-     "ms": 188107
-    },
-    {
-     "name": "Gum Gum Gatling",
-     "ms": 255813
-    },
-    {
-     "name": "Training Montage",
-     "ms": 77947
-    },
-    {
-     "name": "Roronoa Zoro",
-     "ms": 162027
-    },
-    {
-     "name": "Ready to Take Your Beating",
-     "ms": 202213
-    },
-    {
-     "name": "Technically I'm Not a Salesman",
-     "ms": 69480
-    },
-    {
-     "name": "The Pirates Are Coming",
-     "ms": 91640
-    },
-    {
-     "name": "Buggy the Clown",
-     "ms": 395899
-    },
-    {
-     "name": "Boogie I'm Warning You",
-     "ms": 313707
-    },
-    {
-     "name": "You've Got the Same Dream as Me",
-     "ms": 486987
-    },
-    {
-     "name": "Marine with a Bad Haircut Vs Tough Guy Three Swords",
-     "ms": 143360
-    }
-   ]
-  },
-  {
-   "id": 1703549144,
-   "title": "Piano Trio",
-   "artist": "Piotr Wylezol, Michal Baranski & Łukasz Żyta",
-   "year": "2006",
-   "genre": "Jazz",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/c2/94/00/c2940041-dce1-04b8-9883-24c3ab0fb113/5905348058599.jpg/1200x1200bb.jpg",
-   "url": "https://music.apple.com/za/album/piano-trio/1703549144?uo=4",
-   "tracks": [
-    {
-     "name": "Definitely",
-     "ms": 381213
-    },
-    {
-     "name": "Maja",
-     "ms": 491947
-    },
-    {
-     "name": "Taboo to Love",
-     "ms": 383053
-    },
-    {
-     "name": "Who Am I",
-     "ms": 294733
-    },
-    {
-     "name": "Lonesome Dancer",
-     "ms": 349747
-    },
-    {
-     "name": "By the Way",
-     "ms": 243800
-    },
-    {
-     "name": "Double Exposure",
-     "ms": 278027
-    },
-    {
-     "name": "Stolen Waltz",
-     "ms": 365800
-    },
-    {
-     "name": "Dr Holmes",
-     "ms": 403680
-    }
-   ]
-  },
-  {
-   "id": 1615473504,
-   "title": "Bridgerton Season Two (Covers from the Netflix Series)",
-   "artist": "Various Artists",
-   "year": "2022",
-   "genre": "Soundtrack",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/93/e0/d0/93e0d054-ea96-925e-12f5-5f29732961a7/22UMGIM26019.rgb.jpg/1200x1200bb.jpg",
-   "url": "https://music.apple.com/za/album/bridgerton-season-two-covers-from-the-netflix-series/1615473504?uo=4",
-   "tracks": [
-    {
-     "name": "Stay Away",
-     "ms": 184857
-    },
-    {
-     "name": "Material Girl",
-     "ms": 244340
-    },
-    {
-     "name": "Diamonds",
-     "ms": 116170
-    },
-    {
-     "name": "Dancing On My Own",
-     "ms": 279312
-    },
-    {
-     "name": "You Oughta Know",
-     "ms": 167610
-    },
-    {
-     "name": "Kabhi Khushi Kabhie Gham",
-     "ms": 208893
-    },
-    {
-     "name": "Sign of the Times (Stripped)",
-     "ms": 159454
-    },
-    {
-     "name": "What About Us",
-     "ms": 291213
-    },
-    {
-     "name": "How Deep Is Your Love",
-     "ms": 226434
-    },
-    {
-     "name": "Wrecking Ball",
-     "ms": 233772
-    }
-   ]
-  },
-  {
-   "id": 442506887,
-   "title": "Tea Party",
-   "artist": "Mauro Angelini",
-   "year": "2011",
-   "genre": "Lounge",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music/1b/91/35/mzi.bymxavcx.jpg/1200x1200bb.jpg",
-   "url": "https://music.apple.com/za/album/tea-party/442506887?uo=4",
-   "tracks": [
-    {
-     "name": "Partners In Crime",
-     "ms": 244532
-    },
-    {
-     "name": "Tea Party",
-     "ms": 328725
-    },
-    {
-     "name": "Taste of Sadness",
-     "ms": 261381
-    },
-    {
-     "name": "Love Sensation",
-     "ms": 357669
-    },
-    {
-     "name": "Night Landscape",
-     "ms": 206211
-    },
-    {
-     "name": "Fairyland Circus",
-     "ms": 330057
-    },
-    {
-     "name": "End of the Night",
-     "ms": 295628
-    },
-    {
-     "name": "Latin Sunrise",
-     "ms": 355291
-    },
-    {
-     "name": "Imaginary Day",
-     "ms": 256784
-    },
-    {
-     "name": "Watercolors",
-     "ms": 282593
-    },
-    {
-     "name": "Music",
-     "ms": 336744
-    },
-    {
-     "name": "Preview",
-     "ms": 260780
-    },
-    {
-     "name": "Souvenir",
-     "ms": 273450
-    },
-    {
-     "name": "Under the Moon's Eyes",
-     "ms": 303412
-    }
-   ]
-  },
-  {
-   "id": 1023678446,
-   "title": "Beat Tape 2",
-   "artist": "Tom Misch",
-   "year": "2015",
+   "id": 1450695723,
+   "title": "WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?",
+   "artist": "Billie Eilish",
+   "year": "2019",
    "genre": "Alternative",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/90/89/d6/9089d60f-69aa-7d97-dc36-887e62f25dc6/5060186929309_1.jpg/1200x1200bb.jpg",
-   "url": "https://music.apple.com/za/album/beat-tape-2/1023678446?uo=4",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/1a/37/d1/1a37d1b1-8508-54f2-f541-bf4e437dda76/19UMGIM05028.rgb.jpg/1200x1200bb.jpg",
+   "url": "https://music.apple.com/za/album/when-we-all-fall-asleep-where-do-we-go/1450695723?uo=4",
    "tracks": [
     {
-     "name": "The Journey",
-     "ms": 266820
+     "name": "!!!!!!!",
+     "ms": 13578
     },
     {
-     "name": "Wander With Me (feat. Carmody)",
-     "ms": 287228
+     "name": "bad guy",
+     "ms": 194088
     },
     {
-     "name": "Nightgowns (feat. Loyle Carner)",
-     "ms": 166164
+     "name": "xanny",
+     "ms": 243725
     },
     {
-     "name": "Falafel",
-     "ms": 222289
+     "name": "you should see me in a crown",
+     "ms": 180953
     },
     {
-     "name": "Wake Up This Day (feat. Jordan Rakei)",
-     "ms": 229238
+     "name": "all the good girls go to hell",
+     "ms": 168840
     },
     {
-     "name": "In the Midst of It All (feat. Sam Wills)",
-     "ms": 342604
+     "name": "wish you were gay",
+     "ms": 221543
     },
     {
-     "name": "Come Back",
-     "ms": 257329
+     "name": "when the party's over",
+     "ms": 196077
     },
     {
-     "name": "Your Love (feat. Alexa Harley)",
-     "ms": 254735
+     "name": "8",
+     "ms": 173202
     },
     {
-     "name": "Hark (feat. Alfa Mist)",
-     "ms": 163630
+     "name": "my strange addiction",
+     "ms": 179884
     },
     {
-     "name": "Colours of Freedom",
-     "ms": 224000
+     "name": "bury a friend",
+     "ms": 193149
     },
     {
-     "name": "Beautiful Escape",
-     "ms": 276785
+     "name": "ilomilo",
+     "ms": 156371
+    },
+    {
+     "name": "listen before i go",
+     "ms": 242652
+    },
+    {
+     "name": "i love you",
+     "ms": 291796
+    },
+    {
+     "name": "goodbye",
+     "ms": 119422
+    }
+   ]
+  },
+  {
+   "id": 1438166137,
+   "title": "Only Jesus",
+   "artist": "Casting Crowns",
+   "year": "2018",
+   "genre": "Christian",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/63/45/46/63454680-75e6-4005-31db-5a369148781e/886447106761.jpg/1200x1200bb.jpg",
+   "url": "https://music.apple.com/za/album/only-jesus/1438166137?uo=4",
+   "tracks": [
+    {
+     "name": "The Bridge",
+     "ms": 274587
+    },
+    {
+     "name": "Nobody (feat. Matthew West)",
+     "ms": 206400
+    },
+    {
+     "name": "Only Jesus",
+     "ms": 223907
+    },
+    {
+     "name": "In the Hands of the Potter",
+     "ms": 248640
+    },
+    {
+     "name": "Even When You're Running",
+     "ms": 289453
+    },
+    {
+     "name": "One Awkward Moment",
+     "ms": 272213
+    },
+    {
+     "name": "Awaken Me",
+     "ms": 294080
+    },
+    {
+     "name": "One More Song for You",
+     "ms": 266520
+    },
+    {
+     "name": "Start Right Here",
+     "ms": 221053
+    },
+    {
+     "name": "The Change in Me",
+     "ms": 276853
+    },
+    {
+     "name": "Love Moved First",
+     "ms": 205800
     },
     {
      "name": "Home",
-     "ms": 268438
+     "ms": 244867
     }
    ]
   },
   {
-   "id": 1497230760,
-   "title": "The Slow Rush",
-   "artist": "Tame Impala",
-   "year": "2020",
-   "genre": "Alternative",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/65/e3/e7/65e3e740-b69f-f5cb-f2e6-7dedb5265ac9/19UMGIM96748.rgb.jpg/1200x1200bb.jpg",
-   "url": "https://music.apple.com/za/album/the-slow-rush/1497230760?uo=4",
-   "tracks": [
-    {
-     "name": "One More Year",
-     "ms": 322373
-    },
-    {
-     "name": "Instant Destiny",
-     "ms": 193693
-    },
-    {
-     "name": "Borderline",
-     "ms": 237800
-    },
-    {
-     "name": "Posthumous Forgiveness",
-     "ms": 366067
-    },
-    {
-     "name": "Breathe Deeper",
-     "ms": 372653
-    },
-    {
-     "name": "Tomorrow's Dust",
-     "ms": 326840
-    },
-    {
-     "name": "On Track",
-     "ms": 301787
-    },
-    {
-     "name": "Lost in Yesterday",
-     "ms": 249587
-    },
-    {
-     "name": "Is It True",
-     "ms": 238147
-    },
-    {
-     "name": "It Might Be Time",
-     "ms": 273016
-    },
-    {
-     "name": "Glimmer",
-     "ms": 128827
-    },
-    {
-     "name": "One More Hour",
-     "ms": 433133
-    }
-   ]
-  },
-  {
-   "id": 1564483308,
-   "title": "Fly or Die Live",
-   "artist": "Jaimie Branch",
-   "year": "2021",
-   "genre": "Jazz",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e3/30/46/e33046d3-ce8d-5542-2d73-4767ee979da6/789993991457.png/1200x1200bb.jpg",
-   "url": "https://music.apple.com/za/album/fly-or-die-live/1564483308?uo=4",
-   "tracks": [
-    {
-     "name": "Birds of Paradise",
-     "ms": 366813
-    },
-    {
-     "name": "Prayer for Amerikkka, Pt. 1 & 2",
-     "ms": 854440
-    },
-    {
-     "name": "Lesterlude",
-     "ms": 163267
-    },
-    {
-     "name": "Twenty - Three N Me, Jupiter Redux",
-     "ms": 196373
-    },
-    {
-     "name": "Reflections on a Broken Sea",
-     "ms": 134587
-    },
-    {
-     "name": "Whales",
-     "ms": 60080
-    },
-    {
-     "name": "Theme 001",
-     "ms": 281920
-    },
-    {
-     "name": "...Meanwhile",
-     "ms": 116053
-    },
-    {
-     "name": "Theme 002",
-     "ms": 256720
-    },
-    {
-     "name": "Sun Tines",
-     "ms": 106880
-    },
-    {
-     "name": "Leaves of Glass",
-     "ms": 391480
-    },
-    {
-     "name": "The Storm",
-     "ms": 172587
-    },
-    {
-     "name": "Waltzer",
-     "ms": 354400
-    },
-    {
-     "name": "Slip Tider",
-     "ms": 162000
-    },
-    {
-     "name": "Simple Silver Surfer",
-     "ms": 289947
-    },
-    {
-     "name": "Bird Dogs of Paradise",
-     "ms": 192707
-    },
-    {
-     "name": "Nuevo Roquero Estéreo",
-     "ms": 478973
-    },
-    {
-     "name": "Love Song",
-     "ms": 455453
-    },
-    {
-     "name": "Theme Nothing",
-     "ms": 417987
-    }
-   ]
-  },
-  {
-   "id": 1444156164,
-   "title": "Exotica",
-   "artist": "Martin Denny",
-   "year": "1957",
-   "genre": "Lounge",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/c1/dc/1a/c1dc1a35-5ada-2718-4d0c-ab826ac2a8a6/00602547825193.rgb.jpg/1200x1200bb.jpg",
-   "url": "https://music.apple.com/za/album/exotica/1444156164?uo=4",
-   "tracks": [
-    {
-     "name": "Quiet Village",
-     "ms": 220240
-    },
-    {
-     "name": "Return to Paradise",
-     "ms": 141640
-    },
-    {
-     "name": "Hong Kong Blues",
-     "ms": 137787
-    },
-    {
-     "name": "Busy Port",
-     "ms": 172960
-    },
-    {
-     "name": "Lotus Land",
-     "ms": 145000
-    },
-    {
-     "name": "Similau",
-     "ms": 119747
-    },
-    {
-     "name": "Stone God",
-     "ms": 189547
-    },
-    {
-     "name": "Jungle Flower",
-     "ms": 108867
-    },
-    {
-     "name": "China Nights (Shina No Yuro)",
-     "ms": 124067
-    },
-    {
-     "name": "Ah Me Furi",
-     "ms": 130840
-    },
-    {
-     "name": "Waipio",
-     "ms": 194027
-    },
-    {
-     "name": "Love Dance",
-     "ms": 155960
-    }
-   ]
-  },
-  {
-   "id": 903406198,
-   "title": "Jazz by Sun Ra",
-   "artist": "Sun Ra",
-   "year": "1956",
-   "genre": "Jazz",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music7/v4/29/ee/10/29ee103c-3ea8-3351-0e6d-e1f0db368be7/dj.vrxtlpkw.jpg/1200x1200bb.jpg",
-   "url": "https://music.apple.com/za/album/jazz-by-sun-ra/903406198?uo=4",
-   "tracks": [
-    {
-     "name": "Brainville",
-     "ms": 253960
-    },
-    {
-     "name": "Call For All Demons",
-     "ms": 315573
-    },
-    {
-     "name": "Transition",
-     "ms": 221960
-    },
-    {
-     "name": "Possession",
-     "ms": 297933
-    },
-    {
-     "name": "Street Named Hell",
-     "ms": 219307
-    },
-    {
-     "name": "Lullaby For Realville",
-     "ms": 282627
-    },
-    {
-     "name": "Future",
-     "ms": 174573
-    },
-    {
-     "name": "New Horizons",
-     "ms": 185640
-    },
-    {
-     "name": "Fall Off the Log",
-     "ms": 239867
-    },
-    {
-     "name": "Sun Song",
-     "ms": 217360
-    }
-   ]
-  },
-  {
-   "id": 1308528887,
-   "title": "Sweet Dreams (Are Made Of This)",
-   "artist": "Eurythmics",
-   "year": "1983",
-   "genre": "Rock",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/e6/b7/c0/e6b7c046-af63-77ab-d227-7015d4bb7aeb/888880792679.jpg/1200x1200bb.jpg",
-   "url": "https://music.apple.com/za/album/sweet-dreams-are-made-of-this/1308528887?uo=4",
-   "tracks": [
-    {
-     "name": "Love Is a Stranger",
-     "ms": 223467
-    },
-    {
-     "name": "I've Got an Angel",
-     "ms": 165400
-    },
-    {
-     "name": "Wrap It Up",
-     "ms": 213933
-    },
-    {
-     "name": "I Could Give You (A Mirror)",
-     "ms": 230600
-    },
-    {
-     "name": "The Walk",
-     "ms": 282067
-    },
-    {
-     "name": "Sweet Dreams (Are Made of This)",
-     "ms": 217093
-    },
-    {
-     "name": "Jennifer",
-     "ms": 308333
-    },
-    {
-     "name": "This Is the House",
-     "ms": 300800
-    },
-    {
-     "name": "Somebody Told Me",
-     "ms": 209627
-    },
-    {
-     "name": "This City Never Sleeps",
-     "ms": 400173
-    }
-   ]
-  },
-  {
-   "id": 1451565483,
-   "title": "The Saint of Lost Causes",
-   "artist": "Justin Townes Earle",
-   "year": "2019",
-   "genre": "Singer/Songwriter",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/5a/9f/5d/5a9f5dd0-fb4e-bb4f-97a4-dc73bc0fbc7e/607396645435.png/1200x1200bb.jpg",
-   "url": "https://music.apple.com/za/album/the-saint-of-lost-causes/1451565483?uo=4",
-   "tracks": [
-    {
-     "name": "The Saint of Lost Causes",
-     "ms": 290609
-    },
-    {
-     "name": "Ain’t Got No Money",
-     "ms": 185096
-    },
-    {
-     "name": "Mornings in Memphis",
-     "ms": 271959
-    },
-    {
-     "name": "Don’t Drink the Water",
-     "ms": 281390
-    },
-    {
-     "name": "Frightened by the Sound",
-     "ms": 225470
-    },
-    {
-     "name": "Flint City Shake It",
-     "ms": 224261
-    },
-    {
-     "name": "Over Alameda",
-     "ms": 248977
-    },
-    {
-     "name": "Pacific Northwestern Blues",
-     "ms": 216922
-    },
-    {
-     "name": "Appalachian Nightmare",
-     "ms": 337434
-    },
-    {
-     "name": "Say Baby",
-     "ms": 270003
-    },
-    {
-     "name": "Ahi Esta Mi Nina",
-     "ms": 246354
-    },
-    {
-     "name": "Talking to Myself",
-     "ms": 174994
-    }
-   ]
-  },
-  {
-   "id": 1538016269,
-   "title": "Polar Similar",
-   "artist": "Norma Jean",
-   "year": "2016",
-   "genre": "Hard Rock",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/70/01/72/70017231-5fdd-b66a-b8a5-e80a0c1889e5/195497466740.jpg/1200x1200bb.jpg",
-   "url": "https://music.apple.com/za/album/polar-similar/1538016269?uo=4",
-   "tracks": [
-    {
-     "name": "I. The Planet",
-     "ms": 182952
-    },
-    {
-     "name": "Everyone Talking over Everyone Else",
-     "ms": 206979
-    },
-    {
-     "name": "Forever Hurtling Towards Andromeda",
-     "ms": 136137
-    },
-    {
-     "name": "1,000,000 Watts",
-     "ms": 267627
-    },
-    {
-     "name": "II. The People",
-     "ms": 134086
-    },
-    {
-     "name": "Death Is a Living Partner",
-     "ms": 138229
-    },
-    {
-     "name": "Synthetic Sun",
-     "ms": 230249
-    },
-    {
-     "name": "Reaction",
-     "ms": 342054
-    },
-    {
-     "name": "III. The Nebula",
-     "ms": 195586
-    },
-    {
-     "name": "The Close and Discontent",
-     "ms": 153553
-    },
-    {
-     "name": "An Ocean of War",
-     "ms": 208341
-    },
-    {
-     "name": "A Thousand Years a Minute",
-     "ms": 358474
-    },
-    {
-     "name": "IV. The Nexus",
-     "ms": 639627
-    }
-   ]
-  },
-  {
-   "id": 1496862925,
-   "title": "Forever and Ever x Infinity",
-   "artist": "New Found Glory",
-   "year": "2020",
-   "genre": "Rock",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/b9/11/9f/b9119f00-0e7d-41ef-0639-b3e4b7aa9d55/790692280865.jpg/1200x1200bb.jpg",
-   "url": "https://music.apple.com/za/album/forever-and-ever-x-infinity/1496862925?uo=4",
-   "tracks": [
-    {
-     "name": "Shook by Your Shaved Head",
-     "ms": 163861
-    },
-    {
-     "name": "Greatest of All Time",
-     "ms": 177037
-    },
-    {
-     "name": "Double Chin for the Win",
-     "ms": 158842
-    },
-    {
-     "name": "Nothing to Say",
-     "ms": 121082
-    },
-    {
-     "name": "Stay Awhile",
-     "ms": 204470
-    },
-    {
-     "name": "Himalaya",
-     "ms": 181673
-    },
-    {
-     "name": "Same Side Sitters",
-     "ms": 194703
-    },
-    {
-     "name": "Like I Never Existed",
-     "ms": 197578
-    },
-    {
-     "name": "More and More",
-     "ms": 250773
-    },
-    {
-     "name": "Do You Want to Settle Down?",
-     "ms": 160030
-    },
-    {
-     "name": "The Way You Deserve",
-     "ms": 229643
-    },
-    {
-     "name": "Trophy",
-     "ms": 174503
-    },
-    {
-     "name": "Scarier Than Jason Voorhees At A Campfire",
-     "ms": 177898
-    },
-    {
-     "name": "Birthday Song but Not Really",
-     "ms": 178286
-    },
-    {
-     "name": "Slipping Away",
-     "ms": 314352
-    }
-   ]
-  },
-  {
-   "id": 120135545,
-   "title": "Talking Heads: 77",
-   "artist": "Talking Heads",
-   "year": "1977",
-   "genre": "Alternative",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music/f0/7a/44/mzi.gxryruwe.jpg/1200x1200bb.jpg",
-   "url": "https://music.apple.com/za/album/talking-heads-77/120135545?uo=4",
-   "tracks": [
-    {
-     "name": "Uh-Oh, Love Comes To Town ( LP Version )",
-     "ms": 169160
-    },
-    {
-     "name": "New Feeling ( LP Version )",
-     "ms": 189267
-    },
-    {
-     "name": "Tentative Decisions ( LP Version )",
-     "ms": 188307
-    },
-    {
-     "name": "Happy Day ( LP Version )",
-     "ms": 235333
-    },
-    {
-     "name": "Who Is It? ( LP Version )",
-     "ms": 104027
-    },
-    {
-     "name": "No Compassion ( LP Version )",
-     "ms": 289573
-    },
-    {
-     "name": "The Book I Read ( LP Version )",
-     "ms": 250067
-    },
-    {
-     "name": "Don't Worry About The Government ( LP Version )",
-     "ms": 181667
-    },
-    {
-     "name": "First Week / Last Week.... Carefree ( LP Version )",
-     "ms": 201133
-    },
-    {
-     "name": "Psycho Killer ( LP Version )",
-     "ms": 260600
-    },
-    {
-     "name": "Pulled Up ( LP Version )",
-     "ms": 268867
-    }
-   ]
-  },
-  {
-   "id": 1624882060,
-   "title": "Sixteen Seasons",
-   "artist": "Concerto Mediterraneo, Alessandro Quarta, Dino De Palma & Gianna Fratta",
-   "year": "2022",
-   "genre": "Classical",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/f3/7e/84/f37e8435-201b-e493-739a-d8303109ecbf/8720766409962.png/1200x1200bb.jpg",
-   "url": "https://music.apple.com/za/album/sixteen-seasons/1624882060?uo=4",
-   "tracks": [
-    {
-     "name": "Violin Concerto in E Major, RV 269 \"La primavera\": I. Allegro",
-     "ms": 173584
-    },
-    {
-     "name": "Violin Concerto in E Major, RV 269 \"La primavera\": II. Largo e pianissimo sempre",
-     "ms": 131726
-    },
-    {
-     "name": "Violin Concerto in E Major, RV 269 \"La primavera\": III. Allegro pastorale",
-     "ms": 207748
-    },
-    {
-     "name": "Violin Concerto in G Minor, RV 315 \"L'estate\": I. Allegro non molto",
-     "ms": 318248
-    },
-    {
-     "name": "Violin Concerto in G Minor, RV 315 \"L'estate\": II. Adagio e piano - Presto e forte",
-     "ms": 132669
-    },
-    {
-     "name": "Violin Concerto in G Minor, RV 315 \"L'estate\": III. Presto",
-     "ms": 147156
-    },
-    {
-     "name": "Violin Concerto in F Major, RV 293 \"L'autunno\": I. Allegro",
-     "ms": 284125
-    },
-    {
-     "name": "Violin Concerto in F Major, RV 293 \"L'autunno\": II. Adagio molto",
-     "ms": 136542
-    },
-    {
-     "name": "Violin Concerto in F Major, RV 293 \"L'autunno\": III. Allegro",
-     "ms": 180694
-    },
-    {
-     "name": "Violin Concerto in F Minor, RV 297 \"L'inverno\": I. Allegro non molto",
-     "ms": 177044
-    },
-    {
-     "name": "Violin Concerto in F Minor, RV 297 \"L'inverno\": II. Largo",
-     "ms": 124656
-    },
-    {
-     "name": "Violin Concerto in F Minor, RV 297 \"L'inverno\": III. Allegro",
-     "ms": 172556
-    },
-    {
-     "name": "Las Cuatro Estaciones Porteñas (Arr. for Solo Violin and String Orchestra by Leonid Desyatnikov): I. Otoño Porteño",
-     "ms": 494943
-    },
-    {
-     "name": "Las Cuatro Estaciones Porteñas (Arr. for Solo Violin and String Orchestra by Leonid Desyatnikov): II. Invierno Porteño",
-     "ms": 437305
-    },
-    {
-     "name": "Las Cuatro Estaciones Porteñas (Arr. for Solo Violin and String Orchestra by Leonid Desyatnikov): III. Primavera Porteña",
-     "ms": 368783
-    },
-    {
-     "name": "Las Cuatro Estaciones Porteñas (Arr. for Solo Violin and String Orchestra by Leonid Desyatnikov): IV. Verano Porteño",
-     "ms": 395330
-    },
-    {
-     "name": "Recomposed by Max Richter. Vivaldi - The Four Seasons: I. Spring 1",
-     "ms": 162876
-    },
-    {
-     "name": "Recomposed by Max Richter. Vivaldi - The Four Seasons: II. Spring 2",
-     "ms": 209784
-    },
-    {
-     "name": "Recomposed by Max Richter. Vivaldi - The Four Seasons: III. Spring 3",
-     "ms": 208311
-    },
-    {
-     "name": "Recomposed by Max Richter. Vivaldi - The Four Seasons: IV. Summer 1",
-     "ms": 221312
-    },
-    {
-     "name": "Recomposed by Max Richter. Vivaldi - The Four Seasons: V. Summer 2",
-     "ms": 237557
-    },
-    {
-     "name": "Recomposed by Max Richter. Vivaldi - The Four Seasons: VI. Summer 3",
-     "ms": 207110
-    },
-    {
-     "name": "Recomposed by Max Richter. Vivaldi - The Four Seasons: VII. Autumn 1",
-     "ms": 344625
-    },
-    {
-     "name": "Recomposed by Max Richter. Vivaldi - The Four Seasons: VIII. Autumn 2",
-     "ms": 166403
-    },
-    {
-     "name": "Recomposed by Max Richter. Vivaldi - The Four Seasons: IX. Autumn 3",
-     "ms": 89934
-    },
-    {
-     "name": "Recomposed by Max Richter. Vivaldi - The Four Seasons: X. Winter 1",
-     "ms": 187374
-    },
-    {
-     "name": "Recomposed by Max Richter. Vivaldi - The Four Seasons: XI. Winter 2",
-     "ms": 183876
-    },
-    {
-     "name": "Recomposed by Max Richter. Vivaldi - The Four Seasons: XII. Winter 3",
-     "ms": 295402
-    },
-    {
-     "name": "Violin Concerto No. 2 “The American Four Seasons”: I. Prologue",
-     "ms": 99038
-    },
-    {
-     "name": "Violin Concerto No. 2 “The American Four Seasons”: II. Movement 1",
-     "ms": 386775
-    },
-    {
-     "name": "Violin Concerto No. 2 “The American Four Seasons”: III. Song No. 1",
-     "ms": 231320
-    },
-    {
-     "name": "Violin Concerto No. 2 “The American Four Seasons”: IV. Movement 2",
-     "ms": 640231
-    },
-    {
-     "name": "Violin Concerto No. 2 “The American Four Seasons”: V. Song No. 2",
-     "ms": 112488
-    },
-    {
-     "name": "Violin Concerto No. 2 “The American Four Seasons”: VI. Movement 3",
-     "ms": 398979
-    },
-    {
-     "name": "Violin Concerto No. 2 “The American Four Seasons”: VII. Song No. 3",
-     "ms": 217868
-    },
-    {
-     "name": "Violin Concerto No. 2 “The American Four Seasons”: VIII. Movement 4",
-     "ms": 469426
-    }
-   ]
-  },
-  {
-   "id": 393494243,
-   "title": "Chicago Blues (1940-1947) [Anthology]",
-   "artist": "Various Artists",
+   "id": 585705231,
+   "title": "Handel: Concerti Grossi, Op. 6 Nos. 1-12",
+   "artist": "Academy of Ancient Music & Andrew Manze",
    "year": "1998",
-   "genre": "Blues",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music/99/8d/6f/mzi.wkxbhjjt.jpg/1200x1200bb.jpg",
-   "url": "https://music.apple.com/za/album/chicago-blues-1940-1947-anthology/393494243?uo=4",
+   "genre": "Classical",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music117/v4/99/75/7a/99757a33-b268-9655-e7f9-264775eebc8a/0093046722821.png/1200x1200bb.jpg",
+   "url": "https://music.apple.com/za/album/handel-concerti-grossi-op-6-nos-1-12/585705231?uo=4",
    "tracks": [
     {
-     "name": "Chicago Blues",
-     "ms": 168520
+     "name": "Concerto Grosso No. 5 in D Major, HWV 323: I. [no marking]",
+     "ms": 99093
     },
     {
-     "name": "Friar's Point Blues",
-     "ms": 166360
+     "name": "Concerto Grosso No. 5 in D Major, HWV 323: II. Allegro",
+     "ms": 117867
     },
     {
-     "name": "Key to the Highway",
-     "ms": 172333
+     "name": "Concerto Grosso No. 5 in D Major, HWV 323: III. Presto",
+     "ms": 184440
     },
     {
-     "name": "Crawling Kingsnake",
-     "ms": 178360
+     "name": "Concerto Grosso No. 5 in D Major, HWV 323: IV. Largo",
+     "ms": 123760
     },
     {
-     "name": "Let's Try It Again",
-     "ms": 180707
+     "name": "Concerto Grosso No. 5 in D Major, HWV 323: V. (Allegro)",
+     "ms": 139773
     },
     {
-     "name": "Little Boy Blue",
-     "ms": 185907
+     "name": "Concerto Grosso No. 5 in D Major, HWV 323:VI. Menuet",
+     "ms": 187533
     },
     {
-     "name": "Tin Pan Alley",
-     "ms": 174680
+     "name": "Concerto Grosso No. 01 in G Major, HWV 319: I. A tempo giusto",
+     "ms": 102867
     },
     {
-     "name": "Peach Tree Blues",
-     "ms": 167520
+     "name": "Concerto Grosso No. 01 in G Major, HWV 319: II. Allegro",
+     "ms": 97000
     },
     {
-     "name": "Bessie Lee Blues",
-     "ms": 182573
+     "name": "Concerto Grosso No. 01 in G Major, HWV 319: III. Adagio",
+     "ms": 154227
     },
     {
-     "name": "Hollow Log Blues",
-     "ms": 187347
+     "name": "Concerto Grosso No. 01 in G Major, HWV 319: IV. Allegro [2]",
+     "ms": 146640
     },
     {
-     "name": "Pearl Harbor Blues",
-     "ms": 185213
+     "name": "Concerto Grosso No. 01 in G Major, HWV 319: V. Allegro [3]",
+     "ms": 170693
     },
     {
-     "name": "Things Have Changed",
-     "ms": 178107
+     "name": "Concerto Grosso No. 02 in F Major, HWV 320: I. Andante larghetto",
+     "ms": 241507
     },
     {
-     "name": "Dog House Blues",
-     "ms": 182400
+     "name": "Concerto Grosso No. 02 in F Major, HWV 320: II. Allegro",
+     "ms": 147800
     },
     {
-     "name": "Delta Pines Blues",
-     "ms": 182013
+     "name": "Concerto Grosso No. 02 in F Major, HWV 320: III. Largo",
+     "ms": 138960
     },
     {
-     "name": "Mean Red Spider",
-     "ms": 143307
+     "name": "Concerto Grosso No. 02 in F Major, HWV 320: IV. Allegro, ma non troppo",
+     "ms": 143573
     },
     {
-     "name": "Hard Day Blues",
-     "ms": 171573
+     "name": "Concerto Grosso No. 03 in E Minor, HWV 321: I. Larghetto",
+     "ms": 78067
     },
     {
-     "name": "Atomic Bomb Blues",
-     "ms": 157720
+     "name": "Concerto Grosso No. 03 in E Minor, HWV 321: II. Andante",
+     "ms": 125427
     },
     {
-     "name": "My Baby Walked Out On Me (1944)",
-     "ms": 177013
+     "name": "Concerto Grosso No. 03 in E Minor, HWV 321: III. Allegro",
+     "ms": 144640
     },
     {
-     "name": "Saturday Evening Blues",
-     "ms": 190627
+     "name": "Concerto Grosso No. 03 in E Minor, HWV 321: IV. Polonaise",
+     "ms": 280267
     },
     {
-     "name": "Just One More Time",
-     "ms": 184720
+     "name": "Concerto Grosso No. 03 in E Minor, HWV 321: V. Allegro, ma non troppo",
+     "ms": 86893
     },
     {
-     "name": "Lend Me Your Love",
-     "ms": 176893
+     "name": "Concerto Grosso No. 10 in D Minor, HWV 328: I. Ouverture",
+     "ms": 112867
     },
     {
-     "name": "Stockyard Blues",
-     "ms": 168987
+     "name": "Concerto Grosso No. 10 in D Minor, HWV 328: II. Allegro",
+     "ms": 130200
     },
     {
-     "name": "Keep What You Got",
-     "ms": 136960
+     "name": "Concerto Grosso No. 10 in D Minor, HWV 328: III. Lento",
+     "ms": 214440
     },
     {
-     "name": "Baby Please Don't Go",
-     "ms": 167760
+     "name": "Concerto Grosso No. 10 in D Minor, HWV 328: IV. Allegro (2)",
+     "ms": 126360
     },
     {
-     "name": "No More Sweet Potatoes",
-     "ms": 169267
+     "name": "Concerto Grosso No. 10 in D Minor, HWV 328: V. Allegro (3]",
+     "ms": 172933
     },
     {
-     "name": "Blue Monday Blues",
-     "ms": 174440
+     "name": "Concerto Grosso No. 10 in D Minor, HWV 328: VI. Allegro moderato",
+     "ms": 137640
     },
     {
-     "name": "It's the Blues Baby",
-     "ms": 134773
+     "name": "Concerto Grosso No. 11 in A Major, HWV 329: I. Andante larghetto e staccato",
+     "ms": 253893
     },
     {
-     "name": "Grieving Blues",
-     "ms": 173027
+     "name": "Concerto Grosso No. 11 in A Major, HWV 329: II. Allegro",
+     "ms": 94133
     },
     {
-     "name": "Boogie",
-     "ms": 139653
+     "name": "Concerto Grosso No. 11 in A Major, HWV 329: III. Largo e staccato",
+     "ms": 32440
     },
     {
-     "name": "Ora Nelle Blues",
-     "ms": 159613
+     "name": "Concerto Grosso No. 11 in A Major, HWV 329: IV. Andante",
+     "ms": 250960
     },
     {
-     "name": "I Just Keep Lovin Her",
-     "ms": 148387
+     "name": "Concerto Grosso No. 11 in A Major, HWV 329: V. (Allegro)",
+     "ms": 330307
     },
     {
-     "name": "Walkin' and Drinkin'",
-     "ms": 191453
+     "name": "Concerto Grosso No. 07 in B-Flat Major, HWV 325: I. Largo",
+     "ms": 67200
     },
     {
-     "name": "Ramblin With That Woman",
-     "ms": 197947
+     "name": "Concerto Grosso No. 07 in B-Flat Major, HWV 325: II. Allegro",
+     "ms": 161400
     },
     {
-     "name": "Bring Another Half a Pint",
-     "ms": 184613
+     "name": "Concerto Grosso No. 07 in B-Flat Major, HWV 325: III. Largo e piano",
+     "ms": 170027
     },
     {
-     "name": "Farewell Little Girl",
-     "ms": 194200
+     "name": "Concerto Grosso No. 07 in B-Flat Major, HWV 325: IV. Andante",
+     "ms": 237133
     },
     {
-     "name": "Daybreak Blues",
-     "ms": 188093
+     "name": "Concerto Grosso No. 07 in B-Flat Major, HWV 325: VI. Hornpipe",
+     "ms": 179200
+    },
+    {
+     "name": "Concerto Grosso No. 06 in G Minor, HWV 324: I. Larghetto e affettuoso",
+     "ms": 196400
+    },
+    {
+     "name": "Concerto Grosso No. 06 in G Minor, HWV 324: II. Allegro, ma non troppo",
+     "ms": 97000
+    },
+    {
+     "name": "Concerto Grosso No. 06 in G Minor, HWV 324: III. Musette",
+     "ms": 286800
+    },
+    {
+     "name": "Concerto Grosso No. 06 in G Minor, HWV 324: IV. Allegro",
+     "ms": 171067
+    },
+    {
+     "name": "Concerto Grosso No. 06 in G Minor, HWV 324: V. (Allegro)",
+     "ms": 158267
+    },
+    {
+     "name": "Concerto Grosso No. 04 in A Minor, HWV 322: I. Larghetto affettuoso",
+     "ms": 153240
+    },
+    {
+     "name": "Concerto Grosso No. 04 in A Minor, HWV 322: II. Allegro",
+     "ms": 173360
+    },
+    {
+     "name": "Concerto Grosso No. 04 in A Minor, HWV 322: III. Largo e piano",
+     "ms": 133400
+    },
+    {
+     "name": "Concerto Grosso No. 04 in A Minor, HWV 322: IV. (Allegro)",
+     "ms": 159533
+    },
+    {
+     "name": "Concerto Grosso No. 09 in F Major, HWV 327: I. Largo",
+     "ms": 80373
+    },
+    {
+     "name": "Concerto Grosso No. 09 in F Major, HWV 327: II. Allegro",
+     "ms": 199200
+    },
+    {
+     "name": "Concerto Grosso No. 09 in F Major, HWV 327: III. Larghetto",
+     "ms": 190733
+    },
+    {
+     "name": "Concerto Grosso No. 09 in F Major, HWV 327: IV. (Allegro)",
+     "ms": 117933
+    },
+    {
+     "name": "Concerto Grosso No. 09 in F Major, HWV 327: V. Menuet",
+     "ms": 93093
     }
    ]
   },
   {
-   "id": 1076457092,
-   "title": "Vertigo",
-   "artist": "Jean Rondeau",
+   "id": 1016571386,
+   "title": "Half Free",
+   "artist": "U.S. Girls",
+   "year": "2015",
+   "genre": "Alternative",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/82/b5/b5/82b5b53e-2d05-ef4f-d38f-914f2e540953/652637352061.png/1200x1200bb.jpg",
+   "url": "https://music.apple.com/za/album/half-free/1016571386?uo=4",
+   "tracks": [
+    {
+     "name": "Sororal Feelings",
+     "ms": 177187
+    },
+    {
+     "name": "Damn That Valley",
+     "ms": 190373
+    },
+    {
+     "name": "Telephone Play No. 1",
+     "ms": 75680
+    },
+    {
+     "name": "Window Shades",
+     "ms": 281373
+    },
+    {
+     "name": "New Age Thriller",
+     "ms": 298013
+    },
+    {
+     "name": "Sed Knife",
+     "ms": 161267
+    },
+    {
+     "name": "Red Comes In Many Shades",
+     "ms": 312773
+    },
+    {
+     "name": "Navy & Cream",
+     "ms": 253187
+    },
+    {
+     "name": "Woman's Work",
+     "ms": 432547
+    }
+   ]
+  },
+  {
+   "id": 1640157064,
+   "title": "this is what ____ feels like (Vol. 1-4)",
+   "artist": "JVKE",
+   "year": "2022",
+   "genre": "Pop",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8d/1a/7b/8d1a7b44-316f-7c7f-4380-935673fb697a/5056167175650.jpg/1200x1200bb.jpg",
+   "url": "https://music.apple.com/za/album/this-is-what-feels-like-vol-1-4/1640157064?uo=4",
+   "tracks": [
+    {
+     "name": "this is what falling in love feels like",
+     "ms": 120308
+    },
+    {
+     "name": "moon and back",
+     "ms": 148298
+    },
+    {
+     "name": "golden hour",
+     "ms": 209260
+    },
+    {
+     "name": "this is what heartbreak feels like",
+     "ms": 157636
+    },
+    {
+     "name": "i'm not okay",
+     "ms": 145189
+    },
+    {
+     "name": "ghost town",
+     "ms": 157791
+    },
+    {
+     "name": "this is what sadness feels like",
+     "ms": 191831
+    },
+    {
+     "name": "wonder if she loves me",
+     "ms": 160676
+    },
+    {
+     "name": "save your breath",
+     "ms": 165965
+    },
+    {
+     "name": "this is what falling out of love feels like",
+     "ms": 141164
+    },
+    {
+     "name": "catch me",
+     "ms": 177237
+    },
+    {
+     "name": "i can't help it",
+     "ms": 177887
+    }
+   ]
+  },
+  {
+   "id": 1083951053,
+   "title": "Baroque Organ Concertos",
+   "artist": "Kei Koito",
    "year": "2016",
    "genre": "Classical",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/53/1a/27/531a2766-c27b-840a-17aa-ad524fd5dbe0/825646974559.jpg/1200x1200bb.jpg",
-   "url": "https://music.apple.com/za/album/vertigo/1076457092?uo=4",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music49/v4/6c/b2/e2/6cb2e2fb-5cdc-2883-ac56-468d0d641a65/886445499896.jpg/1200x1200bb.jpg",
+   "url": "https://music.apple.com/za/album/baroque-organ-concertos/1083951053?uo=4",
    "tracks": [
     {
-     "name": "Premier livre de pièces de Clavecin, (1706), Suite in A Minor, RCT 1: No. 1 Prélude",
-     "ms": 252482
+     "name": "Suite/Concerto in G Minor: I. Ouverture, HWV 453, No. 1",
+     "ms": 221413
     },
     {
-     "name": "Pièces pour clavecin, Book 1 (1746): No. 12 Allemande",
-     "ms": 371360
+     "name": "Suite/Concerto in G Minor: II. Entrée, HWV 453, No. 2",
+     "ms": 91840
     },
     {
-     "name": "Pièces de clavecin (1724), Suite in D Major, RCT 3: No. 1 Les Tendres Plaintes - Rondeau",
-     "ms": 222173
+     "name": "Suite/Concerto in G Minor: III. Air, HWV 466",
+     "ms": 131307
     },
     {
-     "name": "Pièces de clavecin (1724), Suite in D Major, RCT 3: No. 2 Les Niais de Sologne - Doubles des Niais - Autre Double",
-     "ms": 335200
+     "name": "Suite/Concerto in G Minor: IV. Sarabande, HWV 440, No. 3",
+     "ms": 170493
     },
     {
-     "name": "Pièces de clavecin (1724), Suite in D Major, RCT 3: No. 6 L'Entretien des Muses",
-     "ms": 468907
+     "name": "Suite/Concerto in G Minor: V. Larghetto, HWV 580",
+     "ms": 98907
     },
     {
-     "name": "Pièces de clavecin, Book 1 (1746): No. 3 Les Matelots",
-     "ms": 182920
+     "name": "Suite/Concerto in G Minor: VI. Allegro, HWV 487",
+     "ms": 98507
     },
     {
-     "name": "Pièces de clavecin, Book 1 (1746): No. 4 Tambourins: Premier Tambourin (Suite des Matelots) & Deuxième Tambourin",
-     "ms": 118280
+     "name": "Grave in B Minor, RV 206, No. 2",
+     "ms": 187947
     },
     {
-     "name": "Pièces de clavecin, Book 1 (1746): No. 11 Le Vertigo - Rondeau",
-     "ms": 353027
+     "name": "Concerto in B Minor, LV 133, after RV 275: I. Allegro",
+     "ms": 187693
     },
     {
-     "name": "Pièces de clavecin, Book 1 (1746): No. 2 La Zaïde - Rondeau",
-     "ms": 453547
+     "name": "Concerto in B Minor, LV 133, after RV 275: II. Adagio",
+     "ms": 172680
     },
     {
-     "name": "Pièces de clavecin, Book 1 (1746): No. 14 La Marche, des Scythes",
-     "ms": 385893
+     "name": "Concerto in B Minor, LV 133, after RV 275: III. Allegro",
+     "ms": 191787
     },
     {
-     "name": "Nouvelles Suites de Pièces de Clavecin (1727), Suite in A Minor, RCT 5: No. 3 Sarabande",
-     "ms": 239613
+     "name": "Concerto in G Minor, BWV 985, after TWV 51: I. Allegro",
+     "ms": 166640
     },
     {
-     "name": "Pièces de clavecin (1724), Suite in E Minor, RCT 2: No. 7 Musette en rondeau",
-     "ms": 208120
+     "name": "Concerto in G Minor, BWV 985, after TWV 51: II. Adagio",
+     "ms": 110427
     },
     {
-     "name": "Pièces de clavecin (1724), Suite in E Minor, RCT 2: No. 8 Tambourin",
-     "ms": 72440
+     "name": "Concerto in G Minor, BWV 985, after TWV 51: III. Allegro",
+     "ms": 168267
     },
     {
-     "name": "Nouvelles Suites de Pièces de Clavecin (1727), Suite in G Major, RCT 6: No. 3. Menuet I - Menuet II",
-     "ms": 229253
+     "name": "Largehtto in D Major, BWV 972, No. 2, after RV 230",
+     "ms": 223920
     },
     {
-     "name": "Nouvelles Suites de Pièces de Clavecin (1727), Suite in G Major, RCT 6: No. 14 Les Sauvages",
-     "ms": 113893
+     "name": "Concerto in F Major, LV 126: I. Allegro",
+     "ms": 153107
     },
     {
-     "name": "Pièces de clavecin, Book 1 (1746):  No. 6 L'Aimable",
-     "ms": 334193
+     "name": "Concerto in F Major, LV 126: II. Adagio",
+     "ms": 63880
+    },
+    {
+     "name": "Concerto in F Major, LV 126: III. Allegro",
+     "ms": 167667
+    },
+    {
+     "name": "Suite No. 2 in F Major, HWV 427: I. Adagio",
+     "ms": 150907
+    },
+    {
+     "name": "Concerto in  A Minor, LV 140: I. Allegro",
+     "ms": 150733
+    },
+    {
+     "name": "Concerto in  A Minor, LV 140: II. Adagio",
+     "ms": 130933
+    },
+    {
+     "name": "Concerto in  A Minor, LV 140: III. Allegro",
+     "ms": 198987
+    },
+    {
+     "name": "Largo in D Minor, after RV 356, No. 2",
+     "ms": 126827
+    },
+    {
+     "name": "Organ Concerto in F Major, after HWV 293: I. Larghetto",
+     "ms": 125160
+    },
+    {
+     "name": "Organ Concerto in F Major, after HWV 293: II. Allegro",
+     "ms": 126720
+    },
+    {
+     "name": "Organ Concerto in F Major, after HWV 293: III. Alla Siciliana",
+     "ms": 98493
+    },
+    {
+     "name": "Organ Concerto in F Major, after HWV 293: IV. Presto",
+     "ms": 112573
+    },
+    {
+     "name": "Concerto in C Minor, LV 136, after TWV 52: I. Adagio",
+     "ms": 150360
+    },
+    {
+     "name": "Concerto in C Minor, LV 136, after TWV 52: II. Allegro",
+     "ms": 144373
+    },
+    {
+     "name": "Concerto in C Minor, LV 136, after TWV 52: III. Adagio",
+     "ms": 119320
+    },
+    {
+     "name": "Concerto in C Minor, LV 136, after TWV 52: IV. Allegro",
+     "ms": 133773
     }
    ]
   },
   {
-   "id": 1501761657,
-   "title": "Kahil El'Zabar's Spirit Groove (feat. David Murray)",
-   "artist": "Kahil El'Zabar",
-   "year": "2020",
-   "genre": "Jazz",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/97/24/c6/9724c670-c8d9-4d21-e62b-fbd15a7eb8b2/25260.jpg/1200x1200bb.jpg",
-   "url": "https://music.apple.com/za/album/kahil-elzabars-spirit-groove-feat-david-murray/1501761657?uo=4",
+   "id": 1194403079,
+   "title": "freedom of the son",
+   "artist": "Uyama Hiroto",
+   "year": "2014",
+   "genre": "Hip-Hop/Rap",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e0/54/53/e05453d5-01bf-2663-7fb2-f37cde234093/4538182669105_cov.jpg/1200x1200bb.jpg",
+   "url": "https://music.apple.com/za/album/freedom-of-the-son/1194403079?uo=4",
    "tracks": [
     {
-     "name": "In My House (feat. David Murray)",
-     "ms": 1227787
+     "name": "81 Autumn",
+     "ms": 209467
     },
     {
-     "name": "Necktar (feat. David Murray)",
-     "ms": 547960
+     "name": "Compass",
+     "ms": 341507
     },
     {
-     "name": "Songs of Myself (feat. David Murray)",
-     "ms": 683027
+     "name": "One Day",
+     "ms": 307360
     },
     {
-     "name": "Katon (feat. David Murray)",
-     "ms": 911387
+     "name": "Light",
+     "ms": 278453
     },
     {
-     "name": "In the Spirit (feat. David Murray)",
-     "ms": 300507
+     "name": "Waltz for Life - Song for Children",
+     "ms": 343520
     },
     {
-     "name": "Trane in Mind (feat. David Murray)",
-     "ms": 342440
+     "name": "Relax Your Mind (feat. Pase Rock)",
+     "ms": 278080
     },
     {
-     "name": "One World Family (feat. David Murray)",
-     "ms": 927040
+     "name": "Reminiscence Jazz (feat. Segawa Tatsuya)",
+     "ms": 251867
+    },
+    {
+     "name": "Soul of Freedom (feat. Cise Starr)",
+     "ms": 302333
+    },
+    {
+     "name": "Spektrum (feat. Fat Jon)",
+     "ms": 248947
+    },
+    {
+     "name": "Path of Wind",
+     "ms": 160813
+    },
+    {
+     "name": "Rainy",
+     "ms": 247827
+    },
+    {
+     "name": "Waiting For...",
+     "ms": 262493
+    },
+    {
+     "name": "Become One Live Sun",
+     "ms": 275493
+    },
+    {
+     "name": "Peaceful Quiet (feat. yu-ri)",
+     "ms": 153573
+    },
+    {
+     "name": "Just for You",
+     "ms": 212333
     }
    ]
   },
   {
-   "id": 1634895756,
-   "title": "The Hell We Create",
-   "artist": "Fit for a King",
-   "year": "2022",
-   "genre": "Metal",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/50/87/fe/5087fea6-1145-e991-acc8-4a0f6276594e/810488028676.jpg/1200x1200bb.jpg",
-   "url": "https://music.apple.com/za/album/the-hell-we-create/1634895756?uo=4",
-   "tracks": [
-    {
-     "name": "The Hell We Create",
-     "ms": 254545
-    },
-    {
-     "name": "End (The Other Side)",
-     "ms": 230602
-    },
-    {
-     "name": "Falling Through the Sky",
-     "ms": 261345
-    },
-    {
-     "name": "Sink Below",
-     "ms": 188083
-    },
-    {
-     "name": "Reaper",
-     "ms": 199500
-    },
-    {
-     "name": "Times Like This (feat. Jonathan Vigil)",
-     "ms": 249096
-    },
-    {
-     "name": "Eyes Roll Back",
-     "ms": 209077
-    },
-    {
-     "name": "Fracture",
-     "ms": 204000
-    },
-    {
-     "name": "Reaching Out",
-     "ms": 261428
-    },
-    {
-     "name": "What You Left Behind",
-     "ms": 244080
-    }
-   ]
-  },
-  {
-   "id": 645118864,
-   "title": "Dave Koz and Friends Summer Horns (feat. Gerald Albright, Mindi Abair, Richard Elliot)",
-   "artist": "Dave Koz",
-   "year": "2013",
-   "genre": "Jazz",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/dc/93/4d/dc934d21-bdad-293a-beba-d1cc6834ee60/888072345898_Cover.jpg/1200x1200bb.jpg",
-   "url": "https://music.apple.com/za/album/dave-koz-and-friends-summer-horns-feat-gerald/645118864?uo=4",
-   "tracks": [
-    {
-     "name": "Always There (feat. Gerald Albright, Mindi Abair & Richard Elliot)",
-     "ms": 245653
-    },
-    {
-     "name": "Got to Get You Into My Life (feat. Gerald Albright, Mindi Abair & Richard Elliot)",
-     "ms": 338160
-    },
-    {
-     "name": "Rise (feat. Gerald Albright, Mindi Abair & Richard Elliot)",
-     "ms": 308853
-    },
-    {
-     "name": "So Very Hard to Go (feat. Gerald Albright, Mindi Abair & Richard Elliot)",
-     "ms": 278587
-    },
-    {
-     "name": "Hot Fun in the Summertime (feat. Gerald Albright, Mindi Abair & Richard Elliot)",
-     "ms": 267587
-    },
-    {
-     "name": "Take 5 (feat. Gerald Albright, Mindi Abair & Richard Elliot)",
-     "ms": 252947
-    },
-    {
-     "name": "25 Or 6 To 4 (feat. Gerald Albright, Mindi Abair & Richard Elliot)",
-     "ms": 287747
-    },
-    {
-     "name": "Reasons (feat. Gerald Albright, Mindi Abair & Richard Elliot)",
-     "ms": 286013
-    },
-    {
-     "name": "I Got You (I Feel Good) [feat. Gerald Albright, Mindi Abair & Richard Elliot]",
-     "ms": 257147
-    },
-    {
-     "name": "You Haven’t Done Nothin’ (feat. Gerald Albright, Mindi Abair & Richard Elliot)",
-     "ms": 226893
-    },
-    {
-     "name": "God Bless the Child (feat. Gerald Albright, Mindi Abair & Richard Elliot)",
-     "ms": 358293
-    },
-    {
-     "name": "Summer Horns (feat. Gerald Albright, Mindi Abair & Richard Elliot)",
-     "ms": 237707
-    }
-   ]
-  },
-  {
-   "id": 1498936338,
-   "title": "Ringo Deathstarr",
-   "artist": "Ringo Deathstarr",
-   "year": "2020",
-   "genre": "Alternative",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/9c/5d/40/9c5d40de-7264-9016-d27a-cbbfc7b87fd6/cover.jpg/1200x1200bb.jpg",
-   "url": "https://music.apple.com/za/album/ringo-deathstarr/1498936338?uo=4",
-   "tracks": [
-    {
-     "name": "Nagoya",
-     "ms": 116107
-    },
-    {
-     "name": "God Help the Ones You Love",
-     "ms": 224720
-    },
-    {
-     "name": "Gazin'",
-     "ms": 166368
-    },
-    {
-     "name": "Once Upon a Freak",
-     "ms": 236333
-    },
-    {
-     "name": "Disease",
-     "ms": 208373
-    },
-    {
-     "name": "Just Like You",
-     "ms": 194656
-    },
-    {
-     "name": "In Your Arms",
-     "ms": 258440
-    },
-    {
-     "name": "Heaven Obscured",
-     "ms": 182041
-    },
-    {
-     "name": "Lazy Lane",
-     "ms": 206380
-    },
-    {
-     "name": "The Same Again",
-     "ms": 209399
-    },
-    {
-     "name": "Be Love",
-     "ms": 222678
-    },
-    {
-     "name": "I Don't Want to Lose This",
-     "ms": 195186
-    },
-    {
-     "name": "Cotton Candy Clouds",
-     "ms": 310819
-    }
-   ]
-  },
-  {
-   "id": 1631905783,
-   "title": "Psych Rock & Loner Folk: From the Dank Vaults of the Original Distortion Records 1969, 1970, 1971",
+   "id": 966734948,
+   "title": "Texas Blues (Blues People 1929 - 1930)",
    "artist": "Various Artists",
-   "year": "2022",
-   "genre": "Singer/Songwriter",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/19/b6/87/19b687e5-e598-7683-f246-0dd42e31ab44/0.jpg/1200x1200bb.jpg",
-   "url": "https://music.apple.com/za/album/psych-rock-loner-folk-from-the-dank-vaults-of/1631905783?uo=4",
+   "year": "2015",
+   "genre": "Blues",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/2d/52/c9/2d52c929-7d99-4f7c-a90c-b7e2da740902/cover.jpg/1200x1200bb.jpg",
+   "url": "https://music.apple.com/za/album/texas-blues-blues-people-1929-1930/966734948?uo=4",
+   "tracks": [
+    {
+     "name": "Mama, Don't Rush Me Blues",
+     "ms": 177773
+    },
+    {
+     "name": "Miss Meal Cramp Blues",
+     "ms": 183067
+    },
+    {
+     "name": "No No Blues",
+     "ms": 191987
+    },
+    {
+     "name": "Old Rock Island Blues",
+     "ms": 197307
+    },
+    {
+     "name": "Rising River Blues",
+     "ms": 169467
+    },
+    {
+     "name": "Rowdy Blues",
+     "ms": 179307
+    },
+    {
+     "name": "Shelby County Workhouse Blues",
+     "ms": 177747
+    },
+    {
+     "name": "Skin Game Blues",
+     "ms": 188987
+    },
+    {
+     "name": "Texas Blues",
+     "ms": 198853
+    },
+    {
+     "name": "That's No Way to Get Along",
+     "ms": 174640
+    },
+    {
+     "name": "The Girl I Love, She Got Long Curly Hair",
+     "ms": 177773
+    },
+    {
+     "name": "Wichita Falls Blues",
+     "ms": 190827
+    },
+    {
+     "name": "Worrying Blues",
+     "ms": 193907
+    },
+    {
+     "name": "You'll Like My Loving",
+     "ms": 205147
+    },
+    {
+     "name": "Ball and Chain Blues",
+     "ms": 185120
+    }
+   ]
+  },
+  {
+   "id": 1440764560,
+   "title": "12 x 5",
+   "artist": "The Rolling Stones",
+   "year": "1964",
+   "genre": "Rock",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/f4/99/f8/f499f82e-009c-25d8-56e0-a8d1a5fe1433/13ABKIM00009.rgb.jpg/1200x1200bb.jpg",
+   "url": "https://music.apple.com/za/album/12-x-5/1440764560?uo=4",
+   "tracks": [
+    {
+     "name": "Around and Around",
+     "ms": 183797
+    },
+    {
+     "name": "Confessin' the Blues",
+     "ms": 168757
+    },
+    {
+     "name": "Empty Heart",
+     "ms": 158691
+    },
+    {
+     "name": "Time Is On My Side",
+     "ms": 174448
+    },
+    {
+     "name": "Good Times, Bad Times",
+     "ms": 151709
+    },
+    {
+     "name": "It's All Over Now",
+     "ms": 207501
+    },
+    {
+     "name": "2120 South Michigan Avenue",
+     "ms": 219821
+    },
+    {
+     "name": "Under the Boardwalk",
+     "ms": 167467
+    },
+    {
+     "name": "Congratulations",
+     "ms": 149605
+    },
+    {
+     "name": "Grown Up Wrong",
+     "ms": 126455
+    },
+    {
+     "name": "If You Need Me",
+     "ms": 125313
+    },
+    {
+     "name": "Susie Q",
+     "ms": 111133
+    }
+   ]
+  },
+  {
+   "id": 1574915381,
+   "title": "Orange Wine",
+   "artist": "Okvsho",
+   "year": "2021",
+   "genre": "Lounge",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/68/f8/64/68f864a7-b894-2050-b535-532a3b556e4f/cover.jpg/1200x1200bb.jpg",
+   "url": "https://music.apple.com/za/album/orange-wine/1574915381?uo=4",
+   "tracks": [
+    {
+     "name": "Rio Sihl",
+     "ms": 313352
+    },
+    {
+     "name": "Jusqu'ici tout va bien",
+     "ms": 206672
+    },
+    {
+     "name": "Orange Wine",
+     "ms": 285307
+    },
+    {
+     "name": "Elyjah Slaps the Space",
+     "ms": 89744
+    },
+    {
+     "name": "Je suis au jardin",
+     "ms": 226252
+    },
+    {
+     "name": "Joga Bonito",
+     "ms": 287069
+    },
+    {
+     "name": "Rasheed",
+     "ms": 206946
+    }
+   ]
+  },
+  {
+   "id": 661733392,
+   "title": "Diamonds of Lounge",
+   "artist": "Schwarz & Funk",
+   "year": "2013",
+   "genre": "Lounge",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/f7/29/77/f72977db-9586-d0ca-a965-ee6c952dbeb9/cover_10053296.jpg/1200x1200bb.jpg",
+   "url": "https://music.apple.com/za/album/diamonds-of-lounge/661733392?uo=4",
+   "tracks": [
+    {
+     "name": "Remando Al Viento (Café Del Mar Version)",
+     "ms": 365313
+    },
+    {
+     "name": "Junto Al Mar (Café Del Mar Version)",
+     "ms": 291553
+    },
+    {
+     "name": "Savannah Sunset (Café Del Mar Version)",
+     "ms": 370601
+    },
+    {
+     "name": "Hollywood Affair",
+     "ms": 407573
+    },
+    {
+     "name": "Night Over Bangkok",
+     "ms": 406189
+    },
+    {
+     "name": "Intake (Salinas Cut)",
+     "ms": 277335
+    },
+    {
+     "name": "Rainy Ibiza",
+     "ms": 342311
+    },
+    {
+     "name": "Dream (feat. Eve Lamell)",
+     "ms": 369746
+    },
+    {
+     "name": "Sheela & Luna",
+     "ms": 298632
+    },
+    {
+     "name": "Duende",
+     "ms": 373819
+    },
+    {
+     "name": "Shake That Thing",
+     "ms": 415194
+    },
+    {
+     "name": "When You Leave",
+     "ms": 342966
+    },
+    {
+     "name": "Deep Emotion (feat. Ann Francis)",
+     "ms": 309432
+    }
+   ]
+  },
+  {
+   "id": 451614348,
+   "title": "Mozart: Horn Concertos - K. 412, 417, 447, 495 - Telemann: Ouverture (Suite) in F Major - Fiala: Concerto for 2 Horns",
+   "artist": "Sebastian Weigle, Dresden Philharmonic Orchestra, Jorg-Peter Weigle, Helmut Winschermann, German Bach Soloists, Ab Koster & Jan Schröder",
+   "year": "2004",
+   "genre": "Classical",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Features/ec/2f/8a/dj.bhldyvlp.jpg/1200x1200bb.jpg",
+   "url": "https://music.apple.com/za/album/mozart-horn-concertos-k-412-417-447-495-telemann-ouverture/451614348?uo=4",
+   "tracks": [
+    {
+     "name": "Horn Concerto No. 4 in E-Flat Major, K. 495: I. Allegro maestoso (Cadenza by S. Weigle)",
+     "ms": 501467
+    },
+    {
+     "name": "Horn Concerto No. 4 in E-Flat Major, K. 495: II. Romance (Andante cantabile)",
+     "ms": 275560
+    },
+    {
+     "name": "Horn Concerto No. 4 in E-Flat Major, K. 495: III. Rondo (Allegro vivace)",
+     "ms": 238307
+    },
+    {
+     "name": "Horn Concerto No. 3 in E-Flat Major, K. 447: I. Allegro (Cadenza by S. Weigle)",
+     "ms": 429333
+    },
+    {
+     "name": "Horn Concerto No. 3 in E-Flat Major, K. 447: II. Romanze (Larghetto)",
+     "ms": 260693
+    },
+    {
+     "name": "Horn Concerto No. 3 in E-Flat Major, K. 447: III. Allegro",
+     "ms": 224640
+    },
+    {
+     "name": "Horn Concerto No. 1 in D Major, K. 412: II. Rondo (Reconstructed by, K. Marguerre)",
+     "ms": 255667
+    },
+    {
+     "name": "Horn Concerto No. 2 in E-Flat Major, K. 417: I. Allegro",
+     "ms": 370600
+    },
+    {
+     "name": "Horn Concerto No. 2 in E-Flat Major, K. 417: II. Andante",
+     "ms": 210400
+    },
+    {
+     "name": "Horn Concerto No. 2 in E-Flat Major, K. 417: III. Rondo (Allegro)",
+     "ms": 218000
+    },
+    {
+     "name": "Horn Concerto in E Major, K. 494a: I. Allegro",
+     "ms": 182667
+    },
+    {
+     "name": "Horn Concerto No. 1 in D Major, K. 412: I. Allegro",
+     "ms": 294867
+    },
+    {
+     "name": "Horn Concerto No. 1 in D Major, K. 412: II. Rondo (Allegro) [Composed by F. X. Sussmayer]",
+     "ms": 231800
+    },
+    {
+     "name": "Rondo in E-Flat Major, K. 371 (Completed by P. Damm - cadenza by S. Weigle)",
+     "ms": 358493
+    },
+    {
+     "name": "Horn Concerto in E-Flat Major, K. 370b (Reconstructed by, H. Jeurissen)",
+     "ms": 425133
+    },
+    {
+     "name": "Ouverture (Suite) in F Major: I. Ouverture",
+     "ms": 256933
+    },
+    {
+     "name": "Ouverture (Suite) in F Major: II. Sarabande",
+     "ms": 110093
+    },
+    {
+     "name": "Ouverture (Suite) in F Major: III. Menuetto",
+     "ms": 168733
+    },
+    {
+     "name": "Ouverture (Suite) in F Major: IV. La Badinerie",
+     "ms": 84467
+    },
+    {
+     "name": "Concertino in E-Flat Major",
+     "ms": 455040
+    },
+    {
+     "name": "Concerto for 2 Horns in E-Flat Major: I. Allegro assai",
+     "ms": 472093
+    },
+    {
+     "name": "Concerto for 2 Horns in E-Flat Major: II. Adagio",
+     "ms": 338667
+    },
+    {
+     "name": "Concerto for 2 Horns in E-Flat Major: III. Rondo (Andante)",
+     "ms": 244507
+    },
+    {
+     "name": "Concerto for 2 Horns in F Major: I. Allegro brillante",
+     "ms": 445227
+    },
+    {
+     "name": "Concerto for 2 Horns in F Major: II. Romance (Adagio)",
+     "ms": 222200
+    },
+    {
+     "name": "Concerto for 2 Horns in F Major: III. Rondo (Allegro assai)",
+     "ms": 270667
+    }
+   ]
+  },
+  {
+   "id": 1684317223,
+   "title": "The Little Mermaid (Original Motion Picture Soundtrack)",
+   "artist": "Alan Menken & Howard Ashman",
+   "year": "2023",
+   "genre": "Soundtrack",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/9f/ae/fd/9faefda3-d883-f3f1-e1e2-578ce6d75907/23UMGIM44884.rgb.jpg/1200x1200bb.jpg",
+   "url": "https://music.apple.com/za/album/the-little-mermaid-original-motion-picture-soundtrack/1684317223?uo=4",
+   "tracks": [
+    {
+     "name": "Triton's Kingdom",
+     "ms": 152600
+    },
+    {
+     "name": "Part of Your World",
+     "ms": 214373
+    },
+    {
+     "name": "Fathoms Below",
+     "ms": 88520
+    },
+    {
+     "name": "Part of Your World (Reprise)",
+     "ms": 157107
+    },
+    {
+     "name": "Under the Sea",
+     "ms": 184947
+    },
+    {
+     "name": "Wild Uncharted Waters",
+     "ms": 179973
+    },
+    {
+     "name": "Poor Unfortunate Souls",
+     "ms": 282013
+    },
+    {
+     "name": "For the First Time",
+     "ms": 248067
+    },
+    {
+     "name": "Kiss the Girl",
+     "ms": 196587
+    },
+    {
+     "name": "The Scuttlebutt",
+     "ms": 121813
+    },
+    {
+     "name": "Eric's Decision",
+     "ms": 141773
+    },
+    {
+     "name": "Vanessa's Trick",
+     "ms": 63587
+    },
+    {
+     "name": "Part of Your World (Reprise II)",
+     "ms": 93240
+    },
+    {
+     "name": "Kiss the Girl (Island Band Reprise)",
+     "ms": 137133
+    },
+    {
+     "name": "Finale",
+     "ms": 145640
+    }
+   ]
+  },
+  {
+   "id": 1571978302,
+   "title": "Jubilee",
+   "artist": "Maverick City Music",
+   "year": "2021",
+   "genre": "Christian",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/1e/fe/7c/1efe7c6f-58cd-f84e-7916-dc1315ad59be/195939252719.jpg/1200x1200bb.jpg",
+   "url": "https://music.apple.com/za/album/jubilee/1571978302?uo=4",
+   "tracks": [
+    {
+     "name": "Jubilee (feat. Naomi Raine & Bryan & Katie Torwalt)",
+     "ms": 531375
+    },
+    {
+     "name": "God of Israel (feat. Naomi Raine & Maryanne J. George)",
+     "ms": 557666
+    },
+    {
+     "name": "Blood is Still the Blood (feat. Chandler Moore, Nicole Binion, Ryan Ofei)",
+     "ms": 603749
+    },
+    {
+     "name": "The Blood is Still the Blood Reprise (feat. Chandler Moore, Nicole Binion, Ryan Ofei)",
+     "ms": 788037
+    },
+    {
+     "name": "Ruins (feat. Joe L. Barnes & Nate Moore)",
+     "ms": 252511
+    },
+    {
+     "name": "Testify (feat. Dante Bowe & Naomi Raine)",
+     "ms": 445437
+    },
+    {
+     "name": "Hymn Medley (feat. Chandler Moore)",
+     "ms": 981650
+    }
+   ]
+  },
+  {
+   "id": 1739659134,
+   "title": "HIT ME HARD AND SOFT",
+   "artist": "Billie Eilish",
+   "year": "2024",
+   "genre": "Alternative",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/92/9f/69/929f69f1-9977-3a44-d674-11f70c852d1b/24UMGIM36186.rgb.jpg/1200x1200bb.jpg",
+   "url": "https://music.apple.com/za/album/hit-me-hard-and-soft/1739659134?uo=4",
+   "tracks": [
+    {
+     "name": "SKINNY",
+     "ms": 219733
+    },
+    {
+     "name": "LUNCH",
+     "ms": 179587
+    },
+    {
+     "name": "CHIHIRO",
+     "ms": 303440
+    },
+    {
+     "name": "BIRDS OF A FEATHER",
+     "ms": 210373
+    },
+    {
+     "name": "WILDFLOWER",
+     "ms": 261467
+    },
+    {
+     "name": "THE GREATEST",
+     "ms": 293840
+    },
+    {
+     "name": "L’AMOUR DE MA VIE",
+     "ms": 333987
+    },
+    {
+     "name": "THE DINER",
+     "ms": 186347
+    },
+    {
+     "name": "BITTERSUITE",
+     "ms": 298440
+    },
+    {
+     "name": "BLUE",
+     "ms": 343120
+    },
+    {
+     "name": "HIT ME HARD AND SOFT",
+     "ms": 5078
+    }
+   ]
+  },
+  {
+   "id": 725816076,
+   "title": "Where Are You?",
+   "artist": "Frank Sinatra",
+   "year": "1957",
+   "genre": "Vocal",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/86/b4/5a/86b45acb-1807-b2aa-916e-c830eee6c524/00724353374655.jpg/1200x1200bb.jpg",
+   "url": "https://music.apple.com/za/album/where-are-you/725816076?uo=4",
    "tracks": [
     {
      "name": "Where Are You?",
-     "ms": 236487
+     "ms": 210293
     },
     {
-     "name": "You Mean so Much to Me",
-     "ms": 207497
+     "name": "The Night We Called It a Day",
+     "ms": 208800
     },
     {
-     "name": "I Want to Know",
-     "ms": 216276
+     "name": "I Cover the Waterfront",
+     "ms": 178907
     },
     {
-     "name": "To Kristie",
-     "ms": 173923
+     "name": "Maybe You'll Be There",
+     "ms": 187067
     },
     {
-     "name": "Wondering Why",
-     "ms": 128051
+     "name": "Laura",
+     "ms": 208533
     },
     {
-     "name": "Bop Bop Do-Wae-Doo",
-     "ms": 206669
+     "name": "Lonely Town",
+     "ms": 252667
     },
     {
-     "name": "West Mystic",
-     "ms": 146931
+     "name": "Autumn Leaves",
+     "ms": 172867
     },
     {
-     "name": "In Concert",
-     "ms": 223722
+     "name": "I'm a Fool to Want You",
+     "ms": 291427
     },
     {
-     "name": "Don't Buy This Record",
-     "ms": 204675
+     "name": "I Think of You",
+     "ms": 184000
     },
     {
-     "name": "Doggies in the Rain",
-     "ms": 205786
+     "name": "Where Is the One?",
+     "ms": 193240
     },
     {
-     "name": "And It's Over",
-     "ms": 107695
+     "name": "There's No You",
+     "ms": 228000
     },
     {
-     "name": "Crying in My Root Beer",
-     "ms": 186429
+     "name": "Baby, Won't You Please Come Home",
+     "ms": 180827
     },
     {
-     "name": "No Time for Root Beer",
-     "ms": 184577
+     "name": "I Can Read Between the Lines",
+     "ms": 168133
+    },
+    {
+     "name": "It Worries Me",
+     "ms": 173240
+    },
+    {
+     "name": "Rain (Falling from the Skies)",
+     "ms": 205000
+    },
+    {
+     "name": "Don't Worry 'Bout Me",
+     "ms": 188200
     }
    ]
   },
   {
-   "id": 1486037443,
-   "title": "Pop Instrumental Covers",
-   "artist": "Música Instrumental de I’m In Records & Chillout Lounge From I’m In Records",
-   "year": "2018",
-   "genre": "Easy Listening",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/7a/47/48/7a474838-7982-8bca-6c55-213ef88b69a6/193872706467_cover.jpg/1200x1200bb.jpg",
-   "url": "https://music.apple.com/za/album/pop-instrumental-covers/1486037443?uo=4",
+   "id": 1773452891,
+   "title": "In Concert Wildflowers at the Town Hall NYC (Live) [feat. The Harlem Chamber Players]",
+   "artist": "Judy Collins",
+   "year": "2024",
+   "genre": "Traditional Folk",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f0/54/89/f05489d8-6044-1c72-4cbe-eb7e103801fd/889466586361.jpg/1200x1200bb.jpg",
+   "url": "https://music.apple.com/za/album/in-concert-wildflowers-at-the-town-hall-nyc-live-feat/1773452891?uo=4",
    "tracks": [
     {
-     "name": "Stitches",
-     "ms": 225044
+     "name": "Michael from Moutains (feat. The Harlem Chamber Players) [Live 2024]",
+     "ms": 202202
     },
     {
-     "name": "New Rules",
-     "ms": 248774
+     "name": "Since You've Asked (feat. The Harlem Chamber Players) [Live 2024]",
+     "ms": 147439
     },
     {
-     "name": "No Tears Left To Cry",
-     "ms": 242572
+     "name": "Sisters of Mercy (feat. The Harlem Chamber Players) [Live 2024]",
+     "ms": 172089
     },
     {
-     "name": "All Falls Down",
-     "ms": 179862
+     "name": "Priests (feat. The Harlem Chamber Players) [Live 2024]",
+     "ms": 281907
     },
     {
-     "name": "Attention",
-     "ms": 203267
+     "name": "Lasso! Di Donna (feat. The Harlem Chamber Players) [Live 2024]",
+     "ms": 196880
     },
     {
-     "name": "Dusk Till Dawn",
-     "ms": 252659
+     "name": "Both Sides Now (feat. The Harlem Chamber Players) [Live 2024]",
+     "ms": 209368
     },
     {
-     "name": "Breath",
-     "ms": 204019
+     "name": "La Chanson des Vieux Amants (feat. The Harlem Chamber Players) [Live 2024]",
+     "ms": 299800
     },
     {
-     "name": "Happier",
-     "ms": 177980
+     "name": "Sky Fell (feat. The Harlem Chamber Players) [Live 2024]",
+     "ms": 111203
     },
     {
-     "name": "These Days",
-     "ms": 162177
+     "name": "Albatross (feat. The Harlem Chamber Players) [Live 2024]",
+     "ms": 350225
     },
     {
-     "name": "What Lovers Do",
-     "ms": 138341
+     "name": "Hey, That's No Way To Say Goodbye (feat. The Harlem Chamber Players) [Live 2024]",
+     "ms": 235761
+    }
+   ]
+  },
+  {
+   "id": 1524549244,
+   "title": "Lofi Hip - Hop",
+   "artist": "Lofi Sleep Chill & Study, Lofi Hip-Hop Beats & Lo-Fi Beats",
+   "year": "2020",
+   "genre": "Hip-Hop/Rap",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/74/ff/a5/74ffa554-83b8-97a8-7484-86e38aeb34b2/5060781121566.png/1200x1200bb.jpg",
+   "url": "https://music.apple.com/za/album/lofi-hip-hop/1524549244?uo=4",
+   "tracks": [
+    {
+     "name": "Late Night Beats",
+     "ms": 157330
+    },
+    {
+     "name": "Chill Vibes",
+     "ms": 113231
+    },
+    {
+     "name": "Chillout",
+     "ms": 140490
+    },
+    {
+     "name": "Depressed Lofi Vibes",
+     "ms": 133500
+    },
+    {
+     "name": "Jazz Cafe Lofi",
+     "ms": 138704
+    },
+    {
+     "name": "Lofi Jazz to Sleep",
+     "ms": 144036
+    },
+    {
+     "name": "Lofi Chill",
+     "ms": 180706
+    },
+    {
+     "name": "Lofi Guitar & Chill",
+     "ms": 147750
+    },
+    {
+     "name": "Lofi Study",
+     "ms": 117073
+    }
+   ]
+  },
+  {
+   "id": 1748026665,
+   "title": "The Loft Sessions",
+   "artist": "Bethel Music",
+   "year": "2012",
+   "genre": "Christian",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f0/45/75/f045756e-a045-ef06-e3ac-1d658e9b59a9/610696211064_TImage.jpg/1200x1200bb.jpg",
+   "url": "https://music.apple.com/za/album/the-loft-sessions/1748026665?uo=4",
+   "tracks": [
+    {
+     "name": "One Thing Remains",
+     "ms": 241773
+    },
+    {
+     "name": "My Dear",
+     "ms": 232560
+    },
+    {
+     "name": "You Have Won Me",
+     "ms": 267800
+    },
+    {
+     "name": "Come to Me",
+     "ms": 259333
+    },
+    {
+     "name": "Walk in the Promise",
+     "ms": 265893
+    },
+    {
+     "name": "You Know Me",
+     "ms": 339947
+    },
+    {
+     "name": "Angels",
+     "ms": 242547
+    },
+    {
+     "name": "Fall Afresh",
+     "ms": 264680
+    },
+    {
+     "name": "Draw Near",
+     "ms": 212947
+    },
+    {
+     "name": "This Is What You Do",
+     "ms": 221227
+    },
+    {
+     "name": "Angels (Acoustic)",
+     "ms": 230573
+    },
+    {
+     "name": "Fall Afresh (Acoustic)",
+     "ms": 260640
+    }
+   ]
+  },
+  {
+   "id": 1440502968,
+   "title": "Schindler's List (Original Motion Picture Score)",
+   "artist": "John Williams",
+   "year": "1993",
+   "genre": "Original Score",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/5b/9e/40/5b9e404f-0c3e-1950-f83d-19ea359c6e34/00008811096922.rgb.jpg/1200x1200bb.jpg",
+   "url": "https://music.apple.com/za/album/schindlers-list-original-motion-picture-score/1440502968?uo=4",
+   "tracks": [
+    {
+     "name": "Theme from Schindler's List",
+     "ms": 255693
+    },
+    {
+     "name": "Jewish Town (Krakow Ghetto, Winter '41)",
+     "ms": 280133
+    },
+    {
+     "name": "Immolation (With Our Lives, We Give Life)",
+     "ms": 283933
+    },
+    {
+     "name": "Remembrances",
+     "ms": 260200
+    },
+    {
+     "name": "Schindler's Workforce",
+     "ms": 548267
+    },
+    {
+     "name": "Oyf'n Pripetshok / Nacht Aktion",
+     "ms": 176000
+    },
+    {
+     "name": "I Could Have Done More",
+     "ms": 352240
+    },
+    {
+     "name": "Auschwitz-Birkenau",
+     "ms": 220760
+    },
+    {
+     "name": "Stolen Memories",
+     "ms": 260067
+    },
+    {
+     "name": "Making the List",
+     "ms": 310840
+    },
+    {
+     "name": "Give Me Your Names",
+     "ms": 294667
+    },
+    {
+     "name": "Yerushalaim Chel Zahav (Jerusalem of Gold)",
+     "ms": 136707
+    },
+    {
+     "name": "Remembrances",
+     "ms": 316427
+    },
+    {
+     "name": "Theme from Schindler's List (Reprise)",
+     "ms": 179000
     }
    ]
   }
